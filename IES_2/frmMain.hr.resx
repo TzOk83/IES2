@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 16</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>Model:</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 16</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>Kod rezervnog dijela:</value>
+  </data>
+  <data name="btnConnect.Text" xml:space="preserve">
+    <value>[F10] Konektovanje</value>
+  </data>
+  <data name="btnConnect.ToolTip" xml:space="preserve">
+    <value>Poveži/Prekini od/do motorne elektronike, Ctrl+Click - Simulation Mode</value>
+  </data>
+  <data name="cbCompat.ToolTip" xml:space="preserve">
+    <value>Dodati 4ms kašnjenja između prihvatanja i narednog zahtjeva zbog bolje komunikacije</value>
+  </data>
+  <data name="cbLOG.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 24</value>
+  </data>
+  <data name="cbLOG.Text" xml:space="preserve">
+    <value>LOG Odobren</value>
+  </data>
+  <data name="cbLOG.ToolTip" xml:space="preserve">
+    <value>Odobri konektovanje i logiranje na file</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Odaberi COM</value>
+  </data>
+  <data name="ecuECU.HeaderText" xml:space="preserve">
+    <value>Motorna elektronika</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Odaberi Motornu elektroniku</value>
+  </data>
+  <data name="tbHelp.Text" xml:space="preserve">
+    <value># Bottom panel:
+   [F10] Connect - connect/disconnect button, clicked while holding Ctrl key initializes SIMULATION MODE for selected ECU.
+   Please remember to first press F10 key/click Connect button and then turn ON the ignition when requested.
+# Settings tab:
+   Select ECU - select Engine Control Unit type which is appropriate for your car. You may also use the Automatic Detection.
+   Select COM - select the COM Port or the Virtual COM Port of your RS-232/USB Diagnostic Interface.
+   Supported interface type is ISO-KKL also known as VAG-COM 409-1 Clone.
+   If you use USB interface please make sure that it is connected to the USB port BEFORE you start the IAW Scan 2 application.
+   LOG Enabled - enable logging diagnostic session to a file IESlog_&lt;date_time&gt; located in the LOG folder under the application folder.
+   Compatible mode - add extra 4ms delay between receiving response from ECU and sending next request to ECU.
+# Parameters tab:
+   Use checkbox on the left to turn on polling selected parameter, you may also press the A key/button to select all parameters, or press N key/button to remove selection from all parameters.
+   Parameters checked individually are added to Trace list of the Graphs tab as checked, but when you add all parameters using A key/button, parameters will be added to Traces list as unchecked.
+   Please note that the more parameters you select the lower refresh rate will be.
+   Query errors - enable quering errors while parameters are displayed, this will reduce the parameters refresh rate but errors will be logged to a file.
+# Errors tab:
+   List presents stored, validated and active errors and their reason where available. The MIL checkbox indicates whether particular error lit the MIL lamp. In the IAW-x6F ECU it is possible that MIL lamp is lit while no listed error has checked checkbox in the MIL column - this is a case when error was present and stored during current ECU power cycle, but is no longer active.
+   There are three (in IAW-x6F two) error states possible:
+@ Active - error is present at the moment.
+@ Verified - error is/was present long enough, during current ECU power cycle, to be memorized (not available in IAW-x6F).
+@ Stored - error has been verified during previous ECU power cycle (for IAW-x6F it is a sum of Verified and Stored).
+   Clear button - press C key or push this button to clear stored errors from ECU.
+# Tests tab:
+   List presents available tests for current ECU. Please note that some modules are optional and may be not present in your car. Also note that staus PASSED does not mean that the component is fully functional.
+   Tests are only to activate selected component so the car mechanic may observe the component if it is working correctly or not.
+   Execute button - press E key or push this button to execute currently selected test.
+# Graphs tab:
+   Trace - list of available parameters, you may select which parameters would you like to be recorded on a graph and in a CSV file.
+   Please note that it is strongly recommended to select only these parameters which you like to record on a Parameters Tab.
+   Start button - press S key or push this button to start/stop recording selected parameters. Along with the graph also the CSV file is created with the recorded data. The file is named IESexp_&lt;date_time&gt; and is located in the LOG folder under the application folder.</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Pomoc</value>
+  </data>
+  <data name="tabPage0.Text" xml:space="preserve">
+    <value>Podešavanja</value>
+  </data>
+  <data name="parName.HeaderText" xml:space="preserve">
+    <value>Parametar</value>
+  </data>
+  <data name="parValue.HeaderText" xml:space="preserve">
+    <value>Vrijednost</value>
+  </data>
+  <data name="parUnit.HeaderText" xml:space="preserve">
+    <value>Jedinica</value>
+  </data>
+  <data name="cbQueryErrors.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 44</value>
+  </data>
+  <data name="cbQueryErrors.Text" xml:space="preserve">
+    <value>Odnos
+Greška</value>
+  </data>
+  <data name="cbQueryErrors.ToolTip" xml:space="preserve">
+    <value>Zavisnost motorne elektronike prema greškama na ispisane parametre</value>
+  </data>
+  <data name="btnUncheckAll.ToolTip" xml:space="preserve">
+    <value>Deselektiraj sve parametre</value>
+  </data>
+  <data name="btnCheckAll.ToolTip" xml:space="preserve">
+    <value>Selektiraj sve parametre</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>[F2] Parametri</value>
+  </data>
+  <data name="errDescr.HeaderText" xml:space="preserve">
+    <value>Opis</value>
+  </data>
+  <data name="errReason.HeaderText" xml:space="preserve">
+    <value>Razlog</value>
+  </data>
+  <data name="errState.HeaderText" xml:space="preserve">
+    <value>Stanje</value>
+  </data>
+  <data name="btnClear.Text" xml:space="preserve">
+    <value>&amp;Briši</value>
+  </data>
+  <data name="btnClear.ToolTip" xml:space="preserve">
+    <value>Briši snimljene greške</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>[F3] Greške</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn2.HeaderText" xml:space="preserve">
+    <value>Rezultat</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Molim odaberi pokretanje testa bobina tek nakon testiranja injektora</value>
+  </data>
+  <data name="btnExecute.Text" xml:space="preserve">
+    <value>&amp;Izvršavam</value>
+  </data>
+  <data name="btnExecute.ToolTip" xml:space="preserve">
+    <value>Izvršavam odabrani test</value>
+  </data>
+  <data name="tabPage3.Text" xml:space="preserve">
+    <value>[F4] Testovi</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>Trag</value>
+  </data>
+  <data name="btnGraph.ToolTip" xml:space="preserve">
+    <value>Start/stop prikupljanje podataka</value>
+  </data>
+  <data name="tabPage4.Text" xml:space="preserve">
+    <value>[F5] Dijagram</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn3.HeaderText" xml:space="preserve">
+    <value>Podešavanje</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn4.HeaderText" xml:space="preserve">
+    <value>Rezultat</value>
+  </data>
+  <data name="btnAdj.Text" xml:space="preserve">
+    <value>&amp;Izvršavam</value>
+  </data>
+  <data name="btnAdj.ToolTip" xml:space="preserve">
+    <value>Izvršavam odabrani test</value>
+  </data>
+  <data name="tabPage5.Text" xml:space="preserve">
+    <value>[F6] Podešavanja</value>
+  </data>
+  <data name="toolStripButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJpSURBVDhPdZNPSJNxGMefDbVJOIK3nLeKiTeHl2AUNejU
+        LYcQ0alTHRd0mLfsEmR0yEsS0/7/oVZYZiSjoDIPE2NOnWuvLtmKNtKF4jZzrW/P87yXGeuBB37v8/18
+        n9/7+0d1oo2zl5p3Rai1w9SUsdQs7b9h4wxSu6+470wIJ298wvlwQlPGUhNNGYvdFjZqaLrVfLwPp+/N
+        YuB9xsoPGVx+u4wrnPItmjDCqqcmgo3dF3Hq/hwCoykEXpoIjC3i3KtFJHIbmMqsWTXWhBFWPJZV1tXh
+        K3oGovA/mof/cQL+8AL8T5M4MfIZq+UKMuubVk00ZoQVj3o5eu1nQzgwHIP37iy8D+bgZcjLsPfJAnzP
+        kjjCzbQmGjPCike8RC1GZEf/JNxDMbhvx+HmX3QzfPRFClej3zCSXIF/fIlrCUsThlnxiJdor8dsuBaF
+        MTwDg7sbbDZ4ZoNnjhfK2Kr+wf5REwYvQTVhmBWPeLUBXZ+Ggzs7GHDw7zqep7CHN/HX7yrerZbg4A2U
+        mmrC3IlDPFaDlt0R4o70cB52ntXOsH08jZ7p75AILhVgf/NFa6oxIyzdZI94dSMuhUEi8LERw8TnH/q6
+        rg0643nQREZrqgkjrHis28lHcZiPZMxkYBm2ySxsPHu2tIX8ZgXdsRxaEz+0JhrxpVJWPDVXO0gXBtH4
+        MQsnG5y881NsTleqOJbfgDP9U2vOmZwy1De47SJJ2KiJr2f/EFwLK+jMrsHDRk+hxFnWsdRc3EQYZeu+
+        B+nq6ynufD2BdjZ28TK6ShUdS000ZeqYa8N6zq62CB08ZGrK2Nqwf54z0V9rFu0uxQBtTQAAAABJRU5E
+        rkJggg==
+</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAMDAAAAEAIACoJQAAFgAAACgAAAAwAAAAYAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//3/HgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIx/2jm5378dLQ
+        /U0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AACwv/29M1D2/7O1+8sAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOvn
+        /wLl4P5s7Ob/JQAAAADL2v5CWnv4/2J6+fTw9P4qAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAALvJ/ltoePv/rK793vb2/yD2+v8Ftc/9wZ7G/fXs+P4vAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAL7f/l1lnPz/JVD5/6i1/sfy+P8H5Pb/AdHX/ZS0sfv91c39LAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPf//wLO6P5wap387JO2/t7n6P8a6er/BqTC
+        /bkdSvP/mZj6pwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADR0f6H2dT+jOzj/woAAAAA3vn/KvD5
+        /0umrP30s7v95dvp/2hMefn/U2f49O7o/i4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        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
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAPj9/k1Yfvz+AAb0/xY1+P+Ptv3P3O3+Ktfs/phbg/z/BA71/wsN
+        9P92fPzvyMj+NAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOvz/jdZe/z5ACX3/15//PDg7P4mAAAAAAAA
+        AADa7P6YY478/wQY9f8FEPX/bnf67dTU/mQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOf4/ilwn/3rCSr2/xol
+        9/+apf3H0tX+EAAAAAD7/v4Fx+b+QmKQ/PMFHvb/CB70/2Z3+/G9wv46AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAC51/4zcpj96Qka9f8bLfj/pKr9xu7r/hMAAAAAAAAAALPc/j9hkPzvFj74/wYx9v9gc/ru1df+i+Le
+        /1P59/8MAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        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
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADb6f8Xn8D7zoau99qtzPrJY4r4/w4j
+        8/+Ij/rk5OP+QAAAAAD1+v8Lyd7+u42u+PjX4f02AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9f//E/b/
+        /w/6//8C0OX+bW2R+usYOvL/m5/48tra+ycAAAAA+P//Dev6/yUAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAALbX/jBojffpFSvk/4+X8eXT2v0RAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADL3v1OeJjx/HiY8vjH2P0XAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4fD+RNfs
+        /jYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD////////yBP////////IE////////
+        8gT////////yBP////////IE/9//////8gT/j//////yBP+P//////IE+If/////8gT4B//////yBPgD
+        //////IE+AP/////8gTiAf/////yBOEA//////IE4AD/////8gTgCP/////yBP4Af/////IE/gB/////
+        8gT/4QP////yBP/hAf////IE//oA////8gT//AB////yBP/8AD////IE//wYH///8gT//AgP///yBP/+
+        BgH///IE//8DAP//8gT//4GAf//yBP//wMA///IE///gQB//8gT///A4D//yBP//+DwHD/IE///4PgAP
+        8gT///gfAA/yBP///A+AD/IE///+BwAf8gT///8AAP/yBP///4AB//IE////wAD/8gT////gEP/yBP//
+        //AJ//IE/////wf/8gT/////h//yBP/////P//IE////////8gT////////yBP////////IE////////
+        8gQ=
+</value>
+  </data>
+</root>

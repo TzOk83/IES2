@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 16</value>
+  </data>
+  <data name="label24.Text" xml:space="preserve">
+    <value>Kod ISO:</value>
+  </data>
+  <data name="label24.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIsoCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 41</value>
+  </data>
+  <data name="lblIsoCode.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCarModel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>342, 41</value>
+  </data>
+  <data name="lblCarModel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label20.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 16</value>
+  </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>Model auta:</value>
+  </data>
+  <data name="label20.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 16</value>
+  </data>
+  <data name="label22.Text" xml:space="preserve">
+    <value>Typ ECU:</value>
+  </data>
+  <data name="label22.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEcuType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>327, 9</value>
+  </data>
+  <data name="lblEcuType.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 16</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>Numer katalogowy:</value>
+  </data>
+  <data name="label17.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRepCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>149, 9</value>
+  </data>
+  <data name="lblRepCode.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnConnect.Text" xml:space="preserve">
+    <value>[F10] Połą&amp;cz</value>
+  </data>
+  <data name="btnConnect.ToolTip" xml:space="preserve">
+    <value>Kliknij aby połączyć/rozłączyć, Ctrl+klik aby uruchomić w trybie symulacji</value>
+  </data>
+  <data name="panel2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgvCOM.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbCompat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 24</value>
+  </data>
+  <data name="cbCompat.Text" xml:space="preserve">
+    <value>Tryb zgodności</value>
+  </data>
+  <data name="cbCompat.ToolTip" xml:space="preserve">
+    <value>Dla poprawy zgodności wprowadza dodatkowe 4ms opóźnienie między odebraniem odpowiedzi, a wysłaniem kolejnego zapytania</value>
+  </data>
+  <data name="cbLOG.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 24</value>
+  </data>
+  <data name="cbLOG.Text" xml:space="preserve">
+    <value>LOG włączony</value>
+  </data>
+  <data name="cbLOG.ToolTip" xml:space="preserve">
+    <value>Włącz logowanie sesji do pliku</value>
+  </data>
+  <data name="panel7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tableLayoutPanel7.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Wybierz COM</value>
+  </data>
+  <data name="groupBox2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dgvECU.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Wybierz ECU</value>
+  </data>
+  <data name="groupBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbHelp.Text" xml:space="preserve">
+    <value># Panel dolny:
+   [F10] Połącz – przycisk połączenia/rozłączenia, kliknięty podczas trzymania klawisza Ctrl uruchamia TRYB SYMULACJI dla wybranego ECU.
+   Prosze pamiętać by najpierw kliknąć przycisk Połącz/nacisnąć klawisz F10, a zapłon włączyć dopiero kiedy wyświetli się stosowny komunikat.
+
+# Zakładka ustawienia:
+   Wybierz ECU – wybierz typ centralki sterującej silnika odpowiedniej dla Twojego samochodu. Możesz użyć Automatycznego wykrywania.
+   Wybierz COM – wybierz port COM bądź wirtualny port COM używany przez Twój interfejs diagnostyczny RS-232/USB.
+   Obsługiwany interfejs to ISO-KKL znany również jako klon VAG-COM 409-1.
+   Jeśli używasz interfejsu USB upewnij się, że jest podłączony do portu USB PRZED uruchomieniem aplikacji IAW Scan 2.
+   LOG włączony – włącza logowanie sesji diagnostycznej do pliku IESlog_&lt;data_czas&gt; umieszczonego w folderze LOG w folderze aplikacji.
+   Tryb zgodności – dodaje 4ms opóźnienie pomiędzy odebraniem odpowiedzi z ECU a wysłaniem kolejnego żądania do ECU.
+
+# Zakładka parametry:
+   Użyj pola zaznaczenia polewej aby włączyć odpytywanie wybranego parametru, możesz również nacisnąć klawisz/przycisk A by wybrać wszystkie parametry lub N by usunąć zaznaczenie przy wszystkich parametrach.
+   Parametry zaznaczane pojedynczo są dodawane go listy śladów zakładki wykresów jako zaznaczone, natomiast dodawane z użyciem przycisku/klawisza A są dodawane jako niezaznaczone.
+   Prosze pamiętać, że im więcej parametrów zostanie wybranych tym wolniej będą odświeżane ich wartości.
+   Odpytuj błędy - włącza odpytywanie błędów podczas wyświetlania parametrów, obniży to prędkość odświerzania parametrów ale błędy będą zapisywane do pliku.
+
+# Zakładka błędy:
+   Lista zawiera błędy zapisane, potwierdzone i aktywne oraz opis przyczyny jeśli jest dostępny. Pole zaznaczenia MIL wskazuje czy konkretny błąd spowodował zaświecenie kontrolki MIL. W przypadku IAW-x6F jest możliwe, że kontrolka MIL będzie świeciła pomimo, że żaden błąd nie posiada zaznaczonego pola zaznaczenia w kolumnie MIL – będzie tak w przypadku gdy w bieżącym cyklu zasilania ECU błąd był aktywny na tyle długo by zostać zapisanym ale obecnie nie jest już aktywny.
+   Możliwe są trzy (dla IAW-x6F dwa) stany błędów:
+@ Aktywny – błąd wystepuje w chwili obecnej.
+@ Potwierdzony – błąd jest/był obecny dostatecznie długo, podczas bieżączego cyklu zasilania ECU, by zostac zapamiętany (nie dostępne w IAW-x6F).
+@ Zapamiętany – błąd został potwierdzony w poprzednim cyklu zasilania ECU (dla IAW-x6F jest to suma błędu potwierdzonego i zapisanego).
+   Przycisk wyczyść – naciśnij klawisz C lub kliknij ten przycisk aby skasować zapamiętane błędy z ECU.
+
+# Zakładka testy:
+   Lista zawiera testy elementów dostępne dla bieżącego ECU. Proszę zwrócić uwagę, że niektóre podzespoły są opcjonalne i może ich nie być w Twoim samochodzie. Prosze również pamiętać, że status ZALICZONY nie oznacze, że podzespół jest w pełni sprawny.
+   Testy służą jedynie aktywacji wybranych podzespołów samochodu aby mechanik mógł zaobserwować czy dany element działa czy nie.
+   Przycisk wykonaj – naciśnij klawisz E lub kliknij ten przycisk aby wykoanać test wybranego podzespołu.
+
+# Zakładka wykresy:
+   Ślad – lista dostępnych parametrów, możesz wybrać które parametry mają być utrwalone na wykresie oraz w pliku CSV.
+   Prosze pamiętać, że jest stanowczo zalecane aby w zakładce parametry wybierać tylko te parametry które mają być rejestrowane.
+   Przycisk start – naciśnij klawisz S lub kliknij ten przycisk  aby rozpocząć/zatrzymać rejestrowanie wybranych parametrów. Równolegle z wykresem tworzony jest plik CSV zawierający rejestrowane dane. Plik nazywa się IESexp_&lt;data_czas&gt; i jest umieszczony w folderze LOG w folderze aplikacji.</value>
+  </data>
+  <data name="tbHelp.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Pomoc</value>
+  </data>
+  <data name="groupBox3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tableLayoutPanel4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPage0.Text" xml:space="preserve">
+    <value>Ustawienia</value>
+  </data>
+  <data name="tabPage0.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="parName.HeaderText" xml:space="preserve">
+    <value>Parametr</value>
+  </data>
+  <data name="parValue.HeaderText" xml:space="preserve">
+    <value>Wart.</value>
+  </data>
+  <data name="parUnit.HeaderText" xml:space="preserve">
+    <value>J. m.</value>
+  </data>
+  <data name="dgvParameters.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cbQueryErrors.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 44</value>
+  </data>
+  <data name="cbQueryErrors.Text" xml:space="preserve">
+    <value>Odpytuj
+błędy</value>
+  </data>
+  <data name="cbQueryErrors.ToolTip" xml:space="preserve">
+    <value>Odpytuj ECU o błedy podczas wyświetlania danych</value>
+  </data>
+  <data name="btnUncheckAll.ToolTip" xml:space="preserve">
+    <value>Usuń zaznaczenie przy wszystkich parametrach</value>
+  </data>
+  <data name="btnCheckAll.ToolTip" xml:space="preserve">
+    <value>Zaznacz wszystkie parametry</value>
+  </data>
+  <data name="panel4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tableLayoutPanel2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>[F2] Parametry</value>
+  </data>
+  <data name="tabPage1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="errDescr.HeaderText" xml:space="preserve">
+    <value>Opis</value>
+  </data>
+  <data name="errReason.HeaderText" xml:space="preserve">
+    <value>Przyczyna</value>
+  </data>
+  <data name="errState.HeaderText" xml:space="preserve">
+    <value>Stan</value>
+  </data>
+  <data name="dgvErrors.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 80</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Stany:
+[A]ktywny
+[P]otwierdz.
+[Z]apisany</value>
+  </data>
+  <data name="label2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnClear.Text" xml:space="preserve">
+    <value>&amp;Wyczyść</value>
+  </data>
+  <data name="btnClear.ToolTip" xml:space="preserve">
+    <value>Skasuj zapamiętane błędy</value>
+  </data>
+  <data name="panel5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tableLayoutPanel3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>[F3] Błędy</value>
+  </data>
+  <data name="tabPage2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dataGridViewTextBoxColumn2.HeaderText" xml:space="preserve">
+    <value>Wynik</value>
+  </data>
+  <data name="dgvTests.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 117</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Proszę unikać testowania cewki zaraz po teście wtrysków!</value>
+  </data>
+  <data name="label1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnExecute.Text" xml:space="preserve">
+    <value>&amp;Wykonaj</value>
+  </data>
+  <data name="btnExecute.ToolTip" xml:space="preserve">
+    <value>Wykonaj wybrany test</value>
+  </data>
+  <data name="panel3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tableLayoutPanel5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPage3.Text" xml:space="preserve">
+    <value>[F4] Testy</value>
+  </data>
+  <data name="tabPage3.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cblTraces.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>Ślad</value>
+  </data>
+  <data name="groupBox4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="zedGraphControl1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnGraph.ToolTip" xml:space="preserve">
+    <value>Rozpocznij/zatrzymaj rejestrowanie danych</value>
+  </data>
+  <data name="panel6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tableLayoutPanel6.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPage4.Text" xml:space="preserve">
+    <value>[F5] Wykresy</value>
+  </data>
+  <data name="tabPage4.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="dataGridViewTextBoxColumn3.HeaderText" xml:space="preserve">
+    <value>Regulacja</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn4.HeaderText" xml:space="preserve">
+    <value>Wynik</value>
+  </data>
+  <data name="dgvAdjusts.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnAdj.Text" xml:space="preserve">
+    <value>&amp;Wykonaj</value>
+  </data>
+  <data name="panel8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tableLayoutPanel8.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabPage5.Text" xml:space="preserve">
+    <value>[F6] Regulacje</value>
+  </data>
+  <data name="tabPage5.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tabControl1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="panel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tableLayoutPanel1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="toolStripButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJpSURBVDhPdZNPSJNxGMefDbVJOIK3nLeKiTeHl2AUNejU
+        LYcQ0alTHRd0mLfsEmR0yEsS0/7/oVZYZiSjoDIPE2NOnWuvLtmKNtKF4jZzrW/P87yXGeuBB37v8/18
+        n9/7+0d1oo2zl5p3Rai1w9SUsdQs7b9h4wxSu6+470wIJ298wvlwQlPGUhNNGYvdFjZqaLrVfLwPp+/N
+        YuB9xsoPGVx+u4wrnPItmjDCqqcmgo3dF3Hq/hwCoykEXpoIjC3i3KtFJHIbmMqsWTXWhBFWPJZV1tXh
+        K3oGovA/mof/cQL+8AL8T5M4MfIZq+UKMuubVk00ZoQVj3o5eu1nQzgwHIP37iy8D+bgZcjLsPfJAnzP
+        kjjCzbQmGjPCike8RC1GZEf/JNxDMbhvx+HmX3QzfPRFClej3zCSXIF/fIlrCUsThlnxiJdor8dsuBaF
+        MTwDg7sbbDZ4ZoNnjhfK2Kr+wf5REwYvQTVhmBWPeLUBXZ+Ggzs7GHDw7zqep7CHN/HX7yrerZbg4A2U
+        mmrC3IlDPFaDlt0R4o70cB52ntXOsH08jZ7p75AILhVgf/NFa6oxIyzdZI94dSMuhUEi8LERw8TnH/q6
+        rg0643nQREZrqgkjrHis28lHcZiPZMxkYBm2ySxsPHu2tIX8ZgXdsRxaEz+0JhrxpVJWPDVXO0gXBtH4
+        MQsnG5y881NsTleqOJbfgDP9U2vOmZwy1De47SJJ2KiJr2f/EFwLK+jMrsHDRk+hxFnWsdRc3EQYZeu+
+        B+nq6ynufD2BdjZ28TK6ShUdS000ZeqYa8N6zq62CB08ZGrK2Nqwf54z0V9rFu0uxQBtTQAAAABJRU5E
+        rkJggg==
+</value>
+  </data>
+  <data name="statusStrip1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="infoOptions.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="infoMessage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="infoPanel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAMDAAAAEAIACoJQAAFgAAACgAAAAwAAAAYAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//3/HgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADIx/2jm5378dLQ
+        /U0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AACwv/29M1D2/7O1+8sAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOvn
+        /wLl4P5s7Ob/JQAAAADL2v5CWnv4/2J6+fTw9P4qAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAALvJ/ltoePv/rK793vb2/yD2+v8Ftc/9wZ7G/fXs+P4vAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAL7f/l1lnPz/JVD5/6i1/sfy+P8H5Pb/AdHX/ZS0sfv91c39LAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPf//wLO6P5wap387JO2/t7n6P8a6er/BqTC
+        /bkdSvP/mZj6pwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADR0f6H2dT+jOzj/woAAAAA3vn/KvD5
+        /0umrP30s7v95dvp/2hMefn/U2f49O7o/i4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        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
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAPj9/k1Yfvz+AAb0/xY1+P+Ptv3P3O3+Ktfs/phbg/z/BA71/wsN
+        9P92fPzvyMj+NAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOvz/jdZe/z5ACX3/15//PDg7P4mAAAAAAAA
+        AADa7P6YY478/wQY9f8FEPX/bnf67dTU/mQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOf4/ilwn/3rCSr2/xol
+        9/+apf3H0tX+EAAAAAD7/v4Fx+b+QmKQ/PMFHvb/CB70/2Z3+/G9wv46AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAC51/4zcpj96Qka9f8bLfj/pKr9xu7r/hMAAAAAAAAAALPc/j9hkPzvFj74/wYx9v9gc/ru1df+i+Le
+        /1P59/8MAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAwdz+LnCS/OgJGfX/HjP2/6Kj/M3Wz/4TAAAAAAAAAACryv43cpv98Aoh
+        9P8DFfP/OkP4/0lX+v+ztv298O//DQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALvX/jBxk/voBhTy/xog8f+np/vJ8Oz+FAAA
+        AAAAAAAAvNr+O2OJ++4GG/T/AADy/wAW8v8oPPX/uLn8vO7q/wwAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC72P4obZP65Qsk
+        7/8oQPP/rLH909fV/hUAAAAAAAAAAK7K/TN9nPz/Qmr4/xtA9P8ABOz/KDny/6ux+8Pv7v8QAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAu9n+LXOg+eULLPD/JC/z/52e+s3W0/4WAAAAAP3//wHZ7f9K0+v/b63M/NgkQvL/AALr/yUv
+        8f+np/vA29j+DgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAANjx/iR6qvzjDC30/xs98/+eo/vX8u/+FwAAAAAAAAAAAAAAAPz/
+        /xiy0f3QKE30/wAM8f8fJvL/p6v8x+zr/xIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC53f4qdqv95gAr8v8cMfL/0dj+uAAA
+        AAAAAAAAAAAAAAAAAADm9P8YtND90i1Q9v8ADO//IDjy/6Km+sXT0/0RAAAAAAAAAAAAAAAA7uf+HNPP
+        /HPLyfzC3Nf/HAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD8/v4NsLn91wUa
+        8f8cMfL/1+H+oQAAAAAAAAAAAAAAAAAAAAAAAAAA+///FrzY/c0mVfX/AA7r/xwo7/+WnPrJ3dn/RuHZ
+        /lPEvvyqlpb4+UBL8P8sSPL/wb/8gQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAD8/v4Yob792gwu8f8FFu//cYX5+dbZ/mUAAAAAAAAAAAAAAAAAAAAAAAAAAOX1/xWTtPvXBh/t/wAG
+        6v8RGu7/QUn0/z069f8bG/L/BAzt/wAQ6v8PJO7/laX7ogAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA3/T+HYas+v4LH+z/Bhjv/32Y+/3p6v9jAAAAAAAAAAAAAAAAAAAAAAAA
+        AAB9kvitAwrq/wAA5/8AAOn/AADq/wAA7/8CCfH/Gzf0/1mB9/+iwfvywNz+RwAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANvq/mKIqPj4Dh7s/wgS7/9yfvn71Nf+awAA
+        AAAAAAAAAAAAAMC7+1ZSVvL5AATk/wAA3/8PLuz/Kk70/z9q+P92n/zlrs39pdbq/lTs+P8QAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADi7f6EkKX5/w0X
+        7v8ECu//bHX3/Ofj/ZD9+P8F5N/9nWpt9fcDA+r/CBfk/w8p3/8vR+r/zNz+4tPv/0jj/f8RAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA4Ov+W5Wv+/cPH/D/Agbq/1xg7f2UlfP3REPv/wMD7v8VLvH/k7D46K3H9t4qTOv/WWr2/Li9
+        /GEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAANzq/laAnPrYDx7t/wEJ3/8LH+H/AAjo/wUQ8P+Ur/zi2+z/J+34
+        /xCyzfzCM1j0/2V39PjT1v03AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADb6f8Xn8D7zoau99qtzPrJY4r4/w4j
+        8/+Ij/rk5OP+QAAAAAD1+v8Lyd7+u42u+PjX4f02AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9f//E/b/
+        /w/6//8C0OX+bW2R+usYOvL/m5/48tra+ycAAAAA+P//Dev6/yUAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAALbX/jBojffpFSvk/4+X8eXT2v0RAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADL3v1OeJjx/HiY8vjH2P0XAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4fD+RNfs
+        /jYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD////////yBP////////IE////////
+        8gT////////yBP////////IE/9//////8gT/j//////yBP+P//////IE+If/////8gT4B//////yBPgD
+        //////IE+AP/////8gTiAf/////yBOEA//////IE4AD/////8gTgCP/////yBP4Af/////IE/gB/////
+        8gT/4QP////yBP/hAf////IE//oA////8gT//AB////yBP/8AD////IE//wYH///8gT//AgP///yBP/+
+        BgH///IE//8DAP//8gT//4GAf//yBP//wMA///IE///gQB//8gT///A4D//yBP//+DwHD/IE///4PgAP
+        8gT///gfAA/yBP///A+AD/IE///+BwAf8gT///8AAP/yBP///4AB//IE////wAD/8gT////gEP/yBP//
+        //AJ//IE/////wf/8gT/////h//yBP/////P//IE////////8gT////////yBP////////IE////////
+        8gQ=
+</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

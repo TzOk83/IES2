@@ -1,0 +1,666 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ACrelay" xml:space="preserve">
+    <value>AC Relej</value>
+  </data>
+  <data name="Act" xml:space="preserve">
+    <value>[A]</value>
+  </data>
+  <data name="ADGAIN" xml:space="preserve">
+    <value>AC Parametri</value>
+  </data>
+  <data name="Adjusting" xml:space="preserve">
+    <value>Podešavanje</value>
+  </data>
+  <data name="ADOFFPL" xml:space="preserve">
+    <value>AC Praćenje parametara  (min. load)</value>
+  </data>
+  <data name="ADOFFPURG" xml:space="preserve">
+    <value>AC Praćenje parametara  (min. load, EVAP on)</value>
+  </data>
+  <data name="ADOFFSET" xml:space="preserve">
+    <value>AC Praćenje parametara  (min. load, EVAP off)</value>
+  </data>
+  <data name="ALFAFTR" xml:space="preserve">
+    <value>Stepper Correction from FLT</value>
+  </data>
+  <data name="ALFAR" xml:space="preserve">
+    <value>Pozicija ler ventila (Step motor za rad u praznom hodu)</value>
+  </data>
+  <data name="ALFAU" xml:space="preserve">
+    <value>Autokalibracija / Korekcija</value>
+  </data>
+  <data name="ALFAUC" xml:space="preserve">
+    <value>Autokalibracija / Korekcija sa  A/C</value>
+  </data>
+  <data name="ANG_PAP0" xml:space="preserve">
+    <value>Ugao potenciometra gasa</value>
+  </data>
+  <data name="AtMAX" xml:space="preserve">
+    <value>Preko MAX</value>
+  </data>
+  <data name="AtMIN" xml:space="preserve">
+    <value>Ispod MIN</value>
+  </data>
+  <data name="autodetect" xml:space="preserve">
+    <value>Automatska detekcija</value>
+  </data>
+  <data name="AVANCE" xml:space="preserve">
+    <value>Ignition Advance --PALJENJE</value>
+  </data>
+  <data name="Cancelled" xml:space="preserve">
+    <value>PREKINUTO</value>
+  </data>
+  <data name="ClearingErrors" xml:space="preserve">
+    <value>Brisanje grešaka u toku ...</value>
+  </data>
+  <data name="Coil1" xml:space="preserve">
+    <value>Namotaj/Bobina 1</value>
+  </data>
+  <data name="Coil2" xml:space="preserve">
+    <value>Namotaj/Bobina 2</value>
+  </data>
+  <data name="CommLost" xml:space="preserve">
+    <value>Nema komunikacija sa motornom elektronikom</value>
+  </data>
+  <data name="COMnotValid" xml:space="preserve">
+    <value>GREŠKA u odabranom portu</value>
+  </data>
+  <data name="COMopenError" xml:space="preserve">
+    <value>GREŠKA pri pokušaju povezivanja preko odabranog porta</value>
+  </data>
+  <data name="ConMeter" xml:space="preserve">
+    <value>Mjerač potrošnje</value>
+  </data>
+  <data name="ConnectedTo" xml:space="preserve">
+    <value>KONEKTOVAN NA:</value>
+  </data>
+  <data name="Connecting" xml:space="preserve">
+    <value>Dodajte kontakt ...</value>
+  </data>
+  <data name="CONS_REG" xml:space="preserve">
+    <value>Obrtaji motora u praznom hodu</value>
+  </data>
+  <data name="DELREG" xml:space="preserve">
+    <value>Stepper Correction (Delta) _KOREKCIJA</value>
+  </data>
+  <data name="EGR" xml:space="preserve">
+    <value>EGR Ventil</value>
+  </data>
+  <data name="EnsureIgnOnEngStop" xml:space="preserve">
+    <value>Molim osigurajte da je kontakt UKLJUČEN a motor UGAŠEN</value>
+  </data>
+  <data name="ErrACParam" xml:space="preserve">
+    <value>Autocallibration Parameter</value>
+  </data>
+  <data name="ErrAirCo" xml:space="preserve">
+    <value>Klima uređaj</value>
+  </data>
+  <data name="ErrAutoTrans" xml:space="preserve">
+    <value>Automatski mjenjač</value>
+  </data>
+  <data name="ErrBackdoor" xml:space="preserve">
+    <value>Backdoor Acivated</value>
+  </data>
+  <data name="ErrBattV" xml:space="preserve">
+    <value>Napon baterije</value>
+  </data>
+  <data name="ErrC4" xml:space="preserve">
+    <value>Nepoznata GREŠKA !</value>
+  </data>
+  <data name="ErrCam" xml:space="preserve">
+    <value>Senzor pozicije bregaste osovine</value>
+  </data>
+  <data name="ErrCnt" xml:space="preserve">
+    <value>Error Counter</value>
+  </data>
+  <data name="ErrCoil1" xml:space="preserve">
+    <value>Bobina 1</value>
+  </data>
+  <data name="ErrCoil2" xml:space="preserve">
+    <value>Bobina 2</value>
+  </data>
+  <data name="ErrConMet" xml:space="preserve">
+    <value>Mjerač potrošnje</value>
+  </data>
+  <data name="ErrCPU" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="ErrDigimatic" xml:space="preserve">
+    <value>Digimatic signal</value>
+  </data>
+  <data name="ErrECT" xml:space="preserve">
+    <value>Senzor temperature rashladne tekućine motora</value>
+  </data>
+  <data name="ErrEEPROM" xml:space="preserve">
+    <value>EEPROM</value>
+  </data>
+  <data name="ErrEGRCtrl" xml:space="preserve">
+    <value>EGR kontrola</value>
+  </data>
+  <data name="ErrEGRVal" xml:space="preserve">
+    <value>EGR ventil</value>
+  </data>
+  <data name="ErrEPROM" xml:space="preserve">
+    <value>EPROM</value>
+  </data>
+  <data name="ErrEVAP" xml:space="preserve">
+    <value>EVAP ventil</value>
+  </data>
+  <data name="ErrF7" xml:space="preserve">
+    <value>Nepoznata funkcijska greška (7)</value>
+  </data>
+  <data name="ErrF8" xml:space="preserve">
+    <value>Nepoznata funkcijska greška (8)</value>
+  </data>
+  <data name="ErrFuelPump" xml:space="preserve">
+    <value>Pumpa goriva</value>
+  </data>
+  <data name="ErrGenRel" xml:space="preserve">
+    <value>Opšti sistemski relej</value>
+  </data>
+  <data name="ErrI2" xml:space="preserve">
+    <value>Nepoznata ulazna greška (2)</value>
+  </data>
+  <data name="ErrI8" xml:space="preserve">
+    <value>Nepoznata ulazna greška (8)</value>
+  </data>
+  <data name="ErrIAT" xml:space="preserve">
+    <value>Senzor temperature zraka</value>
+  </data>
+  <data name="ErrIAV" xml:space="preserve">
+    <value>Step motor za ler gas</value>
+  </data>
+  <data name="ErrIdleReg" xml:space="preserve">
+    <value>Regulacija ler gasa</value>
+  </data>
+  <data name="ErrInj" xml:space="preserve">
+    <value>Injektor</value>
+  </data>
+  <data name="ErrInj1" xml:space="preserve">
+    <value>Injektor (Grupa 1)</value>
+  </data>
+  <data name="ErrInj2" xml:space="preserve">
+    <value>Injektor (Grupa 2)</value>
+  </data>
+  <data name="ErrInjs" xml:space="preserve">
+    <value>Injektori</value>
+  </data>
+  <data name="ErrKeyCode" xml:space="preserve">
+    <value>Kod ključa GREŠKA</value>
+  </data>
+  <data name="ErrKnock" xml:space="preserve">
+    <value>Senzor detonacije</value>
+  </data>
+  <data name="ErrKnockS" xml:space="preserve">
+    <value>Senzor detonacije</value>
+  </data>
+  <data name="ErrLambda" xml:space="preserve">
+    <value>lambda sonda</value>
+  </data>
+  <data name="ErrLinkDown" xml:space="preserve">
+    <value>Nema ocitanih kodova ili veza prekinuta</value>
+  </data>
+  <data name="ErrMAP" xml:space="preserve">
+    <value>MAP Senzor</value>
+  </data>
+  <data name="ErrMIL" xml:space="preserve">
+    <value>MIL indikacija</value>
+  </data>
+  <data name="ErrMixRatio" xml:space="preserve">
+    <value>Odnos smjese</value>
+  </data>
+  <data name="ErrNeutralGear" xml:space="preserve">
+    <value>Neutralan/signal brzine</value>
+  </data>
+  <data name="ErrNoSync" xml:space="preserve">
+    <value>ECU nije sinhroniziran sa CODE</value>
+  </data>
+  <data name="ErrO1a" xml:space="preserve">
+    <value>Nepoznata IZLAZNA greška (1a)</value>
+  </data>
+  <data name="ErrO2a" xml:space="preserve">
+    <value>Nepoznata IZLAZNA greška (2a)</value>
+  </data>
+  <data name="ErrO3a" xml:space="preserve">
+    <value>Nepoznata IZLAZNA greška (3a)</value>
+  </data>
+  <data name="ErrO4a" xml:space="preserve">
+    <value>Nepoznata IZLAZNA greška (4a)</value>
+  </data>
+  <data name="Errors" xml:space="preserve">
+    <value>GREŠKE:</value>
+  </data>
+  <data name="ErrRAM" xml:space="preserve">
+    <value>RAM</value>
+  </data>
+  <data name="ErrROM" xml:space="preserve">
+    <value>ROM</value>
+  </data>
+  <data name="ErrRPMSens" xml:space="preserve">
+    <value>TDC/RPM Senzor</value>
+  </data>
+  <data name="ErrSMOT" xml:space="preserve">
+    <value>SMOT sensor</value>
+  </data>
+  <data name="ErrSPS" xml:space="preserve">
+    <value>Sekvenca signala</value>
+  </data>
+  <data name="ErrStartDis" xml:space="preserve">
+    <value>ECU nije odobrio paljenje motora</value>
+  </data>
+  <data name="ErrTPS" xml:space="preserve">
+    <value>Senzor pozicije leptira gasa</value>
+  </data>
+  <data name="ErrUniCode" xml:space="preserve">
+    <value>ECU je primio'Univerzalan kod'</value>
+  </data>
+  <data name="ErrUnrCode" xml:space="preserve">
+    <value>Netacan ili nedodjeljiv Code</value>
+  </data>
+  <data name="ErrVAE" xml:space="preserve">
+    <value>Ventil ler obrtaja blokiran u otvorenom ili zatvorenom polozaju</value>
+  </data>
+  <data name="ErrWasteG" xml:space="preserve">
+    <value>Waste Gate</value>
+  </data>
+  <data name="EscCancel" xml:space="preserve">
+    <value>Pritisni [Esc] za Cancel</value>
+  </data>
+  <data name="EVAP" xml:space="preserve">
+    <value>EVAP Valve</value>
+  </data>
+  <data name="F10_Connect" xml:space="preserve">
+    <value>[F10] Konektovati</value>
+  </data>
+  <data name="F10_Disconnect" xml:space="preserve">
+    <value>[F10] Diskonektovati</value>
+  </data>
+  <data name="F11_Confirm" xml:space="preserve">
+    <value>Pritisni [F11] za potvrdu</value>
+  </data>
+  <data name="FABEEAT" xml:space="preserve">
+    <value>Samoadaptacija aktivirana u EEPROM</value>
+  </data>
+  <data name="FABEEATi" xml:space="preserve">
+    <value>Samoadaptacija Ler gasa aktivirana u EEPROM</value>
+  </data>
+  <data name="FABEPAT" xml:space="preserve">
+    <value>Samoadaptacija aktivirana u EPROM</value>
+  </data>
+  <data name="FABEPATi" xml:space="preserve">
+    <value>Samoadaptacija Ler gasa aktivirana u EPROM</value>
+  </data>
+  <data name="Failed" xml:space="preserve">
+    <value>NEUSPJEŠNO</value>
+  </data>
+  <data name="FLGSMA" xml:space="preserve">
+    <value>Lambda u zatvorenoj petlji</value>
+  </data>
+  <data name="FuelPump" xml:space="preserve">
+    <value>Relej pumpe goriva</value>
+  </data>
+  <data name="GenericRelay" xml:space="preserve">
+    <value>Opšti relej</value>
+  </data>
+  <data name="InitFailed" xml:space="preserve">
+    <value>Inicijalizacija prekinuta !</value>
+  </data>
+  <data name="Injector" xml:space="preserve">
+    <value>Injektor</value>
+  </data>
+  <data name="Injector1" xml:space="preserve">
+    <value>Injektor 1</value>
+  </data>
+  <data name="Injector2" xml:space="preserve">
+    <value>Injektor 2</value>
+  </data>
+  <data name="Injector3" xml:space="preserve">
+    <value>Injektor 3</value>
+  </data>
+  <data name="Injector4" xml:space="preserve">
+    <value>Injektor 4</value>
+  </data>
+  <data name="Injectors" xml:space="preserve">
+    <value>Injektori</value>
+  </data>
+  <data name="INJ_AVA" xml:space="preserve">
+    <value>Ugao paljenja</value>
+  </data>
+  <data name="InProceed" xml:space="preserve">
+    <value>U TOKU ...</value>
+  </data>
+  <data name="INTEGR" xml:space="preserve">
+    <value>Step motor ler gasa -Integralan</value>
+  </data>
+  <data name="K_O2" xml:space="preserve">
+    <value>Lambda sonda korekcija</value>
+  </data>
+  <data name="K_O2_RAW" xml:space="preserve">
+    <value>Lambda sonda napon</value>
+  </data>
+  <data name="MaxLEAN" xml:space="preserve">
+    <value>Max OSIROMASEN</value>
+  </data>
+  <data name="MaxRICH" xml:space="preserve">
+    <value>Max OBOGACEN</value>
+  </data>
+  <data name="MIL" xml:space="preserve">
+    <value>MIL Lampa</value>
+  </data>
+  <data name="MP2_MP8" xml:space="preserve">
+    <value>Pritisak usisne grane</value>
+  </data>
+  <data name="MP2_MP8t" xml:space="preserve">
+    <value>Pritisak usisne grane (TURBO)</value>
+  </data>
+  <data name="MT_AIR_L" xml:space="preserve">
+    <value>Temperatura zraka</value>
+  </data>
+  <data name="MT_EAU_L" xml:space="preserve">
+    <value>Temperatura vode</value>
+  </data>
+  <data name="NoAir" xml:space="preserve">
+    <value>Bez zraka</value>
+  </data>
+  <data name="OFFSET1" xml:space="preserve">
+    <value>Autokalibracija injektora Offset @ ZONE 1</value>
+  </data>
+  <data name="OFFSET2" xml:space="preserve">
+    <value>Autokalibracija injektora Offset @ ZONE 2</value>
+  </data>
+  <data name="OFFSET3" xml:space="preserve">
+    <value>Autokalibracija injektora Offset @ ZONE 3</value>
+  </data>
+  <data name="OFFSET4" xml:space="preserve">
+    <value>Autokalibracija injektora  Offset @ ZONE 4</value>
+  </data>
+  <data name="OFFSET5" xml:space="preserve">
+    <value>Autokalibracija injektora  Offset @ ZONE 5</value>
+  </data>
+  <data name="OFFSET6" xml:space="preserve">
+    <value>Autokalibracija injektora  Offset @ ZONE 6</value>
+  </data>
+  <data name="OFFSETm" xml:space="preserve">
+    <value>Autokalibracija injektora  Offset @ IDLE</value>
+  </data>
+  <data name="OFNNTR" xml:space="preserve">
+    <value>Lerr obrtaji Offset</value>
+  </data>
+  <data name="OpenCircuit" xml:space="preserve">
+    <value>Otvoren strujni krug</value>
+  </data>
+  <data name="OverB" xml:space="preserve">
+    <value>Pozitivna deviacija</value>
+  </data>
+  <data name="Parameters" xml:space="preserve">
+    <value>PARAMETRI:</value>
+  </data>
+  <data name="Passed" xml:space="preserve">
+    <value>PRIHVACENO</value>
+  </data>
+  <data name="PERIODE" xml:space="preserve">
+    <value>Brzina vozila</value>
+  </data>
+  <data name="Press_F10" xml:space="preserve">
+    <value>Pritisni [F10] da prekines konektovanje ili [F12] da ponovis</value>
+  </data>
+  <data name="PreviouslySelectedPort" xml:space="preserve">
+    <value>Prethodno odabrani port  {0} nije vise dostupan.  Molim odaberi drugi</value>
+  </data>
+  <data name="PROP" xml:space="preserve">
+    <value>Rad ventila ler obrtaja proporcionalan</value>
+  </data>
+  <data name="REVmeter" xml:space="preserve">
+    <value>REV Meter</value>
+  </data>
+  <data name="rpm" xml:space="preserve">
+    <value>RPM</value>
+  </data>
+  <data name="ShortToGND" xml:space="preserve">
+    <value>Kratak spoj GND</value>
+  </data>
+  <data name="ShortToGNDorOpen" xml:space="preserve">
+    <value>Kratak spoj  GND/Otvoren</value>
+  </data>
+  <data name="ShortToVcc" xml:space="preserve">
+    <value>Kratak spoj  +Vcc</value>
+  </data>
+  <data name="Simulation" xml:space="preserve">
+    <value>SIMULACIJA</value>
+  </data>
+  <data name="StaABSON" xml:space="preserve">
+    <value>ABS aktivno</value>
+  </data>
+  <data name="StaAdvDecr" xml:space="preserve">
+    <value>Paljenje zahtjeva kliktanje</value>
+  </data>
+  <data name="StaAirCoON" xml:space="preserve">
+    <value>Klima UPALJENA</value>
+  </data>
+  <data name="StaClLoop" xml:space="preserve">
+    <value>Lambda sonda u  Closed Loop</value>
+  </data>
+  <data name="StaEngRun" xml:space="preserve">
+    <value>Motor upaljen</value>
+  </data>
+  <data name="StaGearEng" xml:space="preserve">
+    <value>U brzini</value>
+  </data>
+  <data name="StaMixACOK" xml:space="preserve">
+    <value>Autokalibracija ODOBRENA</value>
+  </data>
+  <data name="StaPLatchOK" xml:space="preserve">
+    <value>Power Latch Line OK</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>&amp;Start</value>
+  </data>
+  <data name="StaSensOK" xml:space="preserve">
+    <value>Signal sensora OK</value>
+  </data>
+  <data name="StaSigPanOK" xml:space="preserve">
+    <value>Signal panela OK</value>
+  </data>
+  <data name="StaStepACOK" xml:space="preserve">
+    <value>Autokalibracija stepera ODOBRENA</value>
+  </data>
+  <data name="StaThrMM" xml:space="preserve">
+    <value>Klapna gasa Min/Max</value>
+  </data>
+  <data name="StaVAESC" xml:space="preserve">
+    <value>VAE samociscenje</value>
+  </data>
+  <data name="Stepper" xml:space="preserve">
+    <value>Step motor za ler obrtaje</value>
+  </data>
+  <data name="StepReset" xml:space="preserve">
+    <value>Autokalibracija step motora za ler obrtaje</value>
+  </data>
+  <data name="steps" xml:space="preserve">
+    <value>stepovi</value>
+  </data>
+  <data name="StepSet" xml:space="preserve">
+    <value>postavi korekciju stepera (ALFAFTR)</value>
+  </data>
+  <data name="Sto" xml:space="preserve">
+    <value>[S]</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>&amp;Stop</value>
+  </data>
+  <data name="TestDuration" xml:space="preserve">
+    <value>Ako potraje duze {0} molim ugasi kontakt i ponovo upali</value>
+  </data>
+  <data name="Testing" xml:space="preserve">
+    <value>TESTIRANJE: {0}...</value>
+  </data>
+  <data name="Therm" xml:space="preserve">
+    <value>Kratak spoj po GND/+Vcc/Therm</value>
+  </data>
+  <data name="Timeout" xml:space="preserve">
+    <value>TIMEOUT</value>
+  </data>
+  <data name="ToggleStepAC" xml:space="preserve">
+    <value>Toggle motor ler obrtaja autokalibracija</value>
+  </data>
+  <data name="ToggleTrimAC" xml:space="preserve">
+    <value>Toggle mod paljenja auokalibracija</value>
+  </data>
+  <data name="TooMuchAir" xml:space="preserve">
+    <value>Visak zraka</value>
+  </data>
+  <data name="TRIMRAM" xml:space="preserve">
+    <value>Pozicija trimera</value>
+  </data>
+  <data name="TrimReset" xml:space="preserve">
+    <value>Mod paljenja auokalibracija</value>
+  </data>
+  <data name="TrimSet" xml:space="preserve">
+    <value>Postavi poziciju (TRIMRAM)</value>
+  </data>
+  <data name="TurnOFF" xml:space="preserve">
+    <value>Molim iskljuci kontakt...</value>
+  </data>
+  <data name="T_INJ_AP" xml:space="preserve">
+    <value>Interval paljenja</value>
+  </data>
+  <data name="T_VAE" xml:space="preserve">
+    <value>VAE kapacitet (upravljanje ler obrtajima)</value>
+  </data>
+  <data name="UnknownISO" xml:space="preserve">
+    <value>Nepoznato</value>
+  </data>
+  <data name="UnrecECU" xml:space="preserve">
+    <value>Ne prepoznajem motorni procesor, molim iskljuci kontakt...</value>
+  </data>
+  <data name="VAE" xml:space="preserve">
+    <value>Ventil ler obrtaja  (VAE)</value>
+  </data>
+  <data name="Ver" xml:space="preserve">
+    <value>[V]</value>
+  </data>
+  <data name="V_BATT" xml:space="preserve">
+    <value>Napon akumulatora</value>
+  </data>
+  <data name="yes_no" xml:space="preserve">
+    <value>DA;;NE</value>
+  </data>
+</root>

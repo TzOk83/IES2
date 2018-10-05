@@ -1,0 +1,670 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ACrelay" xml:space="preserve">
+    <value>AC Relé</value>
+  </data>
+  <data name="ADGAIN" xml:space="preserve">
+    <value>AC Vezérlés Paraméter (köz. terhelés)</value>
+  </data>
+  <data name="ADOFFPL" xml:space="preserve">
+    <value>AC Korrekció Paraméter (min. terhelés)</value>
+  </data>
+  <data name="ADOFFPURG" xml:space="preserve">
+    <value>AC Korrekció Paraméter (min. terhelés, EVAP be)</value>
+  </data>
+  <data name="ADOFFSET" xml:space="preserve">
+    <value>AC Korrekció Paraméter (min. terhelés, EVAP ki)</value>
+  </data>
+  <data name="ALFAFTR" xml:space="preserve">
+    <value>Alapjárati Léptető Motor Korrekció az FLT-től</value>
+  </data>
+  <data name="ALFAR" xml:space="preserve">
+    <value>Alapjárati Léptető Motor Pozíció</value>
+  </data>
+  <data name="ALFAU" xml:space="preserve">
+    <value>Automata Beállítás Korrekció</value>
+  </data>
+  <data name="ALFAUC" xml:space="preserve">
+    <value>Automata Beállítás Korrekció Klíma Be. </value>
+  </data>
+  <data name="ANG_PAP0" xml:space="preserve">
+    <value>Gápedál Szög Állás </value>
+  </data>
+  <data name="AVANCE" xml:space="preserve">
+    <value>Előgyújtás</value>
+  </data>
+  <data name="ErrNoSync" xml:space="preserve">
+    <value>ECU nincs szinkronban a CODE vezérlővel</value>
+  </data>
+  <data name="ErrStartDis" xml:space="preserve">
+    <value>ECU Megtagadta a Motor Indítását</value>
+  </data>
+  <data name="ErrUniCode" xml:space="preserve">
+    <value>ECU felismerte az 'Universal Code'-ot</value>
+  </data>
+  <data name="ErrC4" xml:space="preserve">
+    <value>Ismeretlen CODE hiba (4)</value>
+  </data>
+  <data name="ErrBackdoor" xml:space="preserve">
+    <value>Backdoor Acivated</value>
+  </data>
+  <data name="ErrKeyCode" xml:space="preserve">
+    <value>Kulcs "Code" Hiba</value>
+  </data>
+  <data name="ErrUnrCode" xml:space="preserve">
+    <value>Helytelen vagy Felismerhetetlen "Code"</value>
+  </data>
+  <data name="ErrLinkDown" xml:space="preserve">
+    <value>Nincs kiolvasott "CODE" vagy Megszakadt a Kapcsolat</value>
+  </data>
+  <data name="Coil1" xml:space="preserve">
+    <value>Tekercs 1</value>
+  </data>
+  <data name="Coil2" xml:space="preserve">
+    <value>Tekercs 2</value>
+  </data>
+  <data name="CONS_REG" xml:space="preserve">
+    <value>Alapjárati Fordulatszám</value>
+  </data>
+  <data name="DELREG" xml:space="preserve">
+    <value>Alapjárati Motor Korrekció (Delta)</value>
+  </data>
+  <data name="EVAP" xml:space="preserve">
+    <value>EVAP Szelep Állapota</value>
+  </data>
+  <data name="ErrACParam" xml:space="preserve">
+    <value>Automata Beállítás Paraméter</value>
+  </data>
+  <data name="ErrRAM" xml:space="preserve">
+    <value>RAM</value>
+  </data>
+  <data name="ErrROM" xml:space="preserve">
+    <value>ROM</value>
+  </data>
+  <data name="ErrEEPROM" xml:space="preserve">
+    <value>EEPROM</value>
+  </data>
+  <data name="ErrCPU" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="ErrRPMSens" xml:space="preserve">
+    <value>TDC/RPM Szenzor</value>
+  </data>
+  <data name="ErrF7" xml:space="preserve">
+    <value>Ismeretlen FUNC HIBA (7)</value>
+  </data>
+  <data name="ErrF8" xml:space="preserve">
+    <value>Ismeretlen FUNC HIBA (8)</value>
+  </data>
+  <data name="FuelPump" xml:space="preserve">
+    <value>Tápszivattyú Relé</value>
+  </data>
+  <data name="GenericRelay" xml:space="preserve">
+    <value>Általános Relé</value>
+  </data>
+  <data name="ErrTPS" xml:space="preserve">
+    <value>Folytószelep Potméter</value>
+  </data>
+  <data name="ErrMAP" xml:space="preserve">
+    <value>MAP Szenzor</value>
+  </data>
+  <data name="ErrLambda" xml:space="preserve">
+    <value>Lambda Szonda</value>
+  </data>
+  <data name="ErrECT" xml:space="preserve">
+    <value>Víz Hőmérséklet Érzékelő</value>
+  </data>
+  <data name="ErrIAT" xml:space="preserve">
+    <value>Levegő Hőmérséklet Érzékelő</value>
+  </data>
+  <data name="ErrBattV" xml:space="preserve">
+    <value>Akkumlátor Feszültség</value>
+  </data>
+  <data name="ErrIdleReg" xml:space="preserve">
+    <value>Alapjárat Szabályozás</value>
+  </data>
+  <data name="ErrI8" xml:space="preserve">
+    <value>Ismeretlen Bemeneti HIBA (8)</value>
+  </data>
+  <data name="Injector" xml:space="preserve">
+    <value>Injektor</value>
+  </data>
+  <data name="INTEGR" xml:space="preserve">
+    <value>Alapjárati Motor Integrál Érték</value>
+  </data>
+  <data name="K_O2" xml:space="preserve">
+    <value>Lambda Szenzor Korrekció</value>
+  </data>
+  <data name="MP2_MP8" xml:space="preserve">
+    <value>Szívócső Abszolút Nyomás</value>
+  </data>
+  <data name="MT_AIR_L" xml:space="preserve">
+    <value>Levegő Hőmérséklet</value>
+  </data>
+  <data name="MT_EAU_L" xml:space="preserve">
+    <value>Víz Hőmérséklet</value>
+  </data>
+  <data name="ErrInj" xml:space="preserve">
+    <value>Injektor</value>
+  </data>
+  <data name="ErrCoil1" xml:space="preserve">
+    <value>Gyújtótekercs 1</value>
+  </data>
+  <data name="ErrCoil2" xml:space="preserve">
+    <value>Gyújtótekercs 2</value>
+  </data>
+  <data name="ErrIAV" xml:space="preserve">
+    <value>Alapjárati Léptető Motor</value>
+  </data>
+  <data name="ErrEVAP" xml:space="preserve">
+    <value>EVAP Szelep</value>
+  </data>
+  <data name="ErrAirCo" xml:space="preserve">
+    <value>Légkondícionáló</value>
+  </data>
+  <data name="ErrFuelPump" xml:space="preserve">
+    <value>Tápszivattyú</value>
+  </data>
+  <data name="ErrGenRel" xml:space="preserve">
+    <value>Általános Relé HIBA</value>
+  </data>
+  <data name="OFNNTR" xml:space="preserve">
+    <value>Alapajárati Fordulatszám Kompenzáció</value>
+  </data>
+  <data name="PERIODE" xml:space="preserve">
+    <value>Fordulatszám</value>
+  </data>
+  <data name="PROP" xml:space="preserve">
+    <value>Alapjárati Léptető Motor Arányos Korrekció</value>
+  </data>
+  <data name="REVmeter" xml:space="preserve">
+    <value>Fordulatszám Mérő</value>
+  </data>
+  <data name="StaEngRun" xml:space="preserve">
+    <value>Motor Indítva</value>
+  </data>
+  <data name="StaStepACOK" xml:space="preserve">
+    <value>Alapjárati Motor AutoKalibráció INDÍTVA</value>
+  </data>
+  <data name="StaPLatchOK" xml:space="preserve">
+    <value>Áram megszakító vonal OK</value>
+  </data>
+  <data name="StaSensOK" xml:space="preserve">
+    <value>Szenzor Jelek OK</value>
+  </data>
+  <data name="StaThrMM" xml:space="preserve">
+    <value>Gáz pozíció Min/Max</value>
+  </data>
+  <data name="StaClLoop" xml:space="preserve">
+    <value>Lambda szabályozás "zárt ciklus"</value>
+  </data>
+  <data name="StaAirCoON" xml:space="preserve">
+    <value>A/C Bekapcsolva</value>
+  </data>
+  <data name="StaMixACOK" xml:space="preserve">
+    <value>Keverék AutoKalibráció INDÍTVA</value>
+  </data>
+  <data name="steps" xml:space="preserve">
+    <value>lépések</value>
+  </data>
+  <data name="TRIMRAM" xml:space="preserve">
+    <value>Trimmer Pozíció</value>
+  </data>
+  <data name="T_INJ_AP" xml:space="preserve">
+    <value>Befecskendezés Időtartalma</value>
+  </data>
+  <data name="V_BATT" xml:space="preserve">
+    <value>Akkumlátor Feszültség</value>
+  </data>
+  <data name="yes_no" xml:space="preserve">
+    <value>IGEN;;NEM</value>
+  </data>
+  <data name="AtMAX" xml:space="preserve">
+    <value>MAX Felett</value>
+  </data>
+  <data name="AtMIN" xml:space="preserve">
+    <value>MIN Alatt</value>
+  </data>
+  <data name="MaxLEAN" xml:space="preserve">
+    <value>Szegény keverék MAXIMUM</value>
+  </data>
+  <data name="MaxRICH" xml:space="preserve">
+    <value>Dús Keverék MAXIMUM</value>
+  </data>
+  <data name="OpenCircuit" xml:space="preserve">
+    <value>Nyitott Áramkör</value>
+  </data>
+  <data name="rpm" xml:space="preserve">
+    <value>RPM</value>
+  </data>
+  <data name="ShortToGND" xml:space="preserve">
+    <value>Test zárlat</value>
+  </data>
+  <data name="ShortToGNDorOpen" xml:space="preserve">
+    <value>Testzárlat/Nyitott Áramkör</value>
+  </data>
+  <data name="ShortToVcc" xml:space="preserve">
+    <value>Pozitív Zárlat</value>
+  </data>
+  <data name="Therm" xml:space="preserve">
+    <value>Testzárlat/+Vcc/Therm</value>
+  </data>
+  <data name="Act" xml:space="preserve">
+    <value>[A]</value>
+  </data>
+  <data name="Sto" xml:space="preserve">
+    <value>[S]</value>
+  </data>
+  <data name="Ver" xml:space="preserve">
+    <value>[V]</value>
+  </data>
+  <data name="autodetect" xml:space="preserve">
+    <value>Automatikus Felismerés</value>
+  </data>
+  <data name="Connecting" xml:space="preserve">
+    <value>Kérem Fordítsa "BE" Állásba a Gyújtáskulcsot...</value>
+  </data>
+  <data name="UnknownISO" xml:space="preserve">
+    <value>Ismeretlen</value>
+  </data>
+  <data name="F10_Connect" xml:space="preserve">
+    <value>[F10] Csatlakozás</value>
+  </data>
+  <data name="F10_Disconnect" xml:space="preserve">
+    <value>[F10] Bontás</value>
+  </data>
+  <data name="Cancelled" xml:space="preserve">
+    <value>TÖRÖLVE</value>
+  </data>
+  <data name="ClearingErrors" xml:space="preserve">
+    <value>Hibakódok Törlése...</value>
+  </data>
+  <data name="EnsureIgnOnEngStop" xml:space="preserve">
+    <value>Biztosítsa hogy a Gyújtáskulcs "BE" Pozícióba legyen fordítva, de NE indítsa be a motort.</value>
+  </data>
+  <data name="Failed" xml:space="preserve">
+    <value>SIKERTELEN</value>
+  </data>
+  <data name="InitFailed" xml:space="preserve">
+    <value>INIT. SIKERTELEN</value>
+  </data>
+  <data name="Passed" xml:space="preserve">
+    <value>RENDBEN</value>
+  </data>
+  <data name="TestDuration" xml:space="preserve">
+    <value>Ha a teszt tovább tart mint {0}s, kapcsolja ki a Gyújtást és indítsa újra az alkalmazást!</value>
+  </data>
+  <data name="Testing" xml:space="preserve">
+    <value>TESZT: {0}...</value>
+  </data>
+  <data name="Timeout" xml:space="preserve">
+    <value>IDŐTÚLLÉPÉS</value>
+  </data>
+  <data name="ConMeter" xml:space="preserve">
+    <value>Fogyasztás</value>
+  </data>
+  <data name="EGR" xml:space="preserve">
+    <value>EGR Szelep</value>
+  </data>
+  <data name="ErrAutoTrans" xml:space="preserve">
+    <value>Automata Váltó</value>
+  </data>
+  <data name="ErrEGRVal" xml:space="preserve">
+    <value>EGR Szelep</value>
+  </data>
+  <data name="ErrKnockS" xml:space="preserve">
+    <value>Kopogás Érzékelő</value>
+  </data>
+  <data name="Injectors" xml:space="preserve">
+    <value>Injektorok</value>
+  </data>
+  <data name="MIL" xml:space="preserve">
+    <value>MIL Lámpa</value>
+  </data>
+  <data name="NoAir" xml:space="preserve">
+    <value>Nincs Levegő</value>
+  </data>
+  <data name="ErrO1a" xml:space="preserve">
+    <value>Ismeretlen KIMENETI Hiba (1a)</value>
+  </data>
+  <data name="ErrInjs" xml:space="preserve">
+    <value>Injektorok</value>
+  </data>
+  <data name="ErrO2a" xml:space="preserve">
+    <value>Ismeretlen KIMENETI Hiba (2a)</value>
+  </data>
+  <data name="ErrO3a" xml:space="preserve">
+    <value>Ismeretlen KIMENETI Hiba (3a)</value>
+  </data>
+  <data name="ErrO4a" xml:space="preserve">
+    <value>Ismeretlen KIMENETI Hiba (4a)</value>
+  </data>
+  <data name="ErrMixRatio" xml:space="preserve">
+    <value>Keverék arány</value>
+  </data>
+  <data name="ErrWasteG" xml:space="preserve">
+    <value>Waste Gate</value>
+  </data>
+  <data name="ErrConMet" xml:space="preserve">
+    <value>Fogyasztás mérő</value>
+  </data>
+  <data name="ErrEGRCtrl" xml:space="preserve">
+    <value>EGR Vezérlés</value>
+  </data>
+  <data name="ErrMIL" xml:space="preserve">
+    <value>MIL Lámpa</value>
+  </data>
+  <data name="StaAdvDecr" xml:space="preserve">
+    <value>Előgyújtás Csökkentve Kopogásos égés Miatt</value>
+  </data>
+  <data name="StaGearEng" xml:space="preserve">
+    <value>Gear Engaged</value>
+  </data>
+  <data name="TooMuchAir" xml:space="preserve">
+    <value>Túl Sok Levegő</value>
+  </data>
+  <data name="COMnotValid" xml:space="preserve">
+    <value>Interface port HIBA</value>
+  </data>
+  <data name="OFFSET1" xml:space="preserve">
+    <value>Automatikus Beállítás Befecskendezési Korrekció @ ZONE 1</value>
+  </data>
+  <data name="OFFSET2" xml:space="preserve">
+    <value>Automatikus Beállítás Befecskendezési Korrekció @ ZONE 2</value>
+  </data>
+  <data name="OFFSET3" xml:space="preserve">
+    <value>Automatikus Beállítás Befecskendezési Korrekció @ ZONE 3</value>
+  </data>
+  <data name="OFFSET4" xml:space="preserve">
+    <value>Automatikus Beállítás Befecskendezési Korrekció @ ZONE 4</value>
+  </data>
+  <data name="OFFSET5" xml:space="preserve">
+    <value>Automatikus Beállítás Befecskendezési Korrekció @ ZONE 5</value>
+  </data>
+  <data name="OFFSET6" xml:space="preserve">
+    <value>Automatikus Beállítás Befecskendezési Korrekció @ ZONE 6</value>
+  </data>
+  <data name="OFFSETm" xml:space="preserve">
+    <value>Automatikus Beállítás Befecskendezési Korrekció @ Alapjárat</value>
+  </data>
+  <data name="PreviouslySelectedPort" xml:space="preserve">
+    <value>Az előzőleg választott port {0} Nem elérhető. Kérem válasszon másik portot.</value>
+  </data>
+  <data name="ErrI2" xml:space="preserve">
+    <value>Ismeretlen Bemeneti HIBA (2)</value>
+  </data>
+  <data name="ErrInj1" xml:space="preserve">
+    <value>Injektorok (csoport 1)</value>
+  </data>
+  <data name="ErrInj2" xml:space="preserve">
+    <value>Injektorok (csoport 2)</value>
+  </data>
+  <data name="ConnectedTo" xml:space="preserve">
+    <value>Csatlakozva:</value>
+  </data>
+  <data name="Errors" xml:space="preserve">
+    <value>HIBÁK:</value>
+  </data>
+  <data name="Parameters" xml:space="preserve">
+    <value>PARAMÉTEREK:</value>
+  </data>
+  <data name="Simulation" xml:space="preserve">
+    <value>SZIMULÁCIÓS MÓD!!!</value>
+  </data>
+  <data name="K_O2_RAW" xml:space="preserve">
+    <value>Lambda szenzor feszültség</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>&amp;Start</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>&amp;Stop</value>
+  </data>
+  <data name="EscCancel" xml:space="preserve">
+    <value>Nyomj [Esc] a Visszavonáshoz</value>
+  </data>
+  <data name="CommLost" xml:space="preserve">
+    <value>Nincs ECU Válasz</value>
+  </data>
+  <data name="Press_F10" xml:space="preserve">
+    <value>Nyomj [F10] a kapcsolat lezárásához vagy [F12] az újracsatlakozáshoz</value>
+  </data>
+  <data name="F11_Confirm" xml:space="preserve">
+    <value>Nyomj [F11] a megerősítéshez </value>
+  </data>
+  <data name="TurnOFF" xml:space="preserve">
+    <value>Kérlek kapcosld le a gyújtást...</value>
+  </data>
+  <data name="UnrecECU" xml:space="preserve">
+    <value>ECU-t nem lehet felismerni, kérlek kapcsold le a gyújtást...</value>
+  </data>
+  <data name="FABEEAT" xml:space="preserve">
+    <value>Self-Adaptation Activated in EEPROM</value>
+  </data>
+  <data name="FABEEATi" xml:space="preserve">
+    <value>Alapjárat Öntanulás Activálva az EEPROM-ba</value>
+  </data>
+  <data name="FABEPAT" xml:space="preserve">
+    <value>Öntanulás Aktiválva az EPROM-ba</value>
+  </data>
+  <data name="FABEPATi" xml:space="preserve">
+    <value>Alapjárat Öntanulás Activálva az EEPROM-ba</value>
+  </data>
+  <data name="FLGSMA" xml:space="preserve">
+    <value>Lambda szabályozás Zárt ciklus</value>
+  </data>
+  <data name="Injector1" xml:space="preserve">
+    <value>Injektor 1</value>
+  </data>
+  <data name="Injector2" xml:space="preserve">
+    <value>Injektor 2</value>
+  </data>
+  <data name="Injector3" xml:space="preserve">
+    <value>Injektor 3</value>
+  </data>
+  <data name="Injector4" xml:space="preserve">
+    <value>Injektor 4</value>
+  </data>
+  <data name="INJ_AVA" xml:space="preserve">
+    <value>Befecskendezés Időzítési Szög</value>
+  </data>
+  <data name="MP2_MP8t" xml:space="preserve">
+    <value>Szívőcső Abszolút Nyomás (TURBO)</value>
+  </data>
+  <data name="OverB" xml:space="preserve">
+    <value>Over Boost</value>
+  </data>
+  <data name="T_VAE" xml:space="preserve">
+    <value>VAE Duty Cycle (Idle Control)</value>
+  </data>
+  <data name="StaSigPanOK" xml:space="preserve">
+    <value>Signal panel OK</value>
+  </data>
+  <data name="StaABSON" xml:space="preserve">
+    <value>ABS aktív</value>
+  </data>
+  <data name="StaVAESC" xml:space="preserve">
+    <value>Alapjárati szelep öntisztítás</value>
+  </data>
+  <data name="VAE" xml:space="preserve">
+    <value>Alapjárat Szebályozó Szelep (VAE)</value>
+  </data>
+  <data name="ErrCam" xml:space="preserve">
+    <value>Vezérműtengely szenzor</value>
+  </data>
+  <data name="ErrDigimatic" xml:space="preserve">
+    <value>Digimatic jel</value>
+  </data>
+  <data name="ErrEPROM" xml:space="preserve">
+    <value>EPROM</value>
+  </data>
+  <data name="ErrKnock" xml:space="preserve">
+    <value>Kopogás szenzor</value>
+  </data>
+  <data name="ErrNeutralGear" xml:space="preserve">
+    <value>Üres/Sebességben jel</value>
+  </data>
+  <data name="ErrSMOT" xml:space="preserve">
+    <value>SMOT szenzor</value>
+  </data>
+  <data name="ErrSPS" xml:space="preserve">
+    <value>Signal Panel Sequence</value>
+  </data>
+  <data name="ErrVAE" xml:space="preserve">
+    <value>VAE blocked open or closed</value>
+  </data>
+  <data name="StepReset" xml:space="preserve">
+    <value>Alapjárati motor újrakalibráció</value>
+  </data>
+  <data name="TrimReset" xml:space="preserve">
+    <value>Üzemanyag arány újrakalibráció</value>
+  </data>
+  <data name="COMopenError" xml:space="preserve">
+    <value>Probléma lépett fel a port megnyitása közben: {0} port.</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lang_it" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>lang.it.resx;System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="ErrCnt" xml:space="preserve">
+    <value>Hiba Számláló</value>
+  </data>
+  <data name="ToggleStepAC" xml:space="preserve">
+    <value>Alapjárat Autokalibráció Indítás</value>
+  </data>
+  <data name="ToggleTrimAC" xml:space="preserve">
+    <value>Keverék Autokalibráció Indítás </value>
+  </data>
+  <data name="InProceed" xml:space="preserve">
+    <value>Függőben...</value>
+  </data>
+  <data name="Stepper" xml:space="preserve">
+    <value>Alapjárati motor (IACV)</value>
+  </data>
+  <data name="StepSet" xml:space="preserve">
+    <value>Alapjárat korrekció beállítás (ALFAFTR)</value>
+  </data>
+  <data name="TrimSet" xml:space="preserve">
+    <value>Trimmer pozíció beállítás (TRIMRAM)</value>
+  </data>
+  <data name="Adjusting" xml:space="preserve">
+    <value>BEÁLLÍTÁS: {0}...</value>
+  </data>
+</root>

@@ -1,0 +1,609 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ACrelay" xml:space="preserve">
+    <value>AC relais</value>
+  </data>
+  <data name="ADGAIN" xml:space="preserve">
+    <value>AC Opbrengst Parameter (gemiddelde belasting)</value>
+  </data>
+  <data name="ADOFFPL" xml:space="preserve">
+    <value>AC Compensatie Parameter (min belasting)</value>
+  </data>
+  <data name="ADOFFPURG" xml:space="preserve">
+    <value>AC Compensatie Parameter (min belasting, EVAP aan)</value>
+  </data>
+  <data name="ADOFFSET" xml:space="preserve">
+    <value>AC Compensatie Parameter (min belasting, EVAP uit)</value>
+  </data>
+  <data name="ALFAFTR" xml:space="preserve">
+    <value>Stappen Correctie van FLT</value>
+  </data>
+  <data name="ALFAR" xml:space="preserve">
+    <value>Stationair Stappen Motor Positie</value>
+  </data>
+  <data name="ALFAU" xml:space="preserve">
+    <value>Automatische Calibratie Correctie</value>
+  </data>
+  <data name="ALFAUC" xml:space="preserve">
+    <value>Automatische Calibratie Correctie met Airco</value>
+  </data>
+  <data name="ANG_PAP0" xml:space="preserve">
+    <value>Gasklep Opening Hoek</value>
+  </data>
+  <data name="AVANCE" xml:space="preserve">
+    <value>Ontsteking Vervroeging</value>
+  </data>
+  <data name="ErrNoSync" xml:space="preserve">
+    <value>ECU is in 'Maagdelijke' Staat</value>
+  </data>
+  <data name="ErrStartDis" xml:space="preserve">
+    <value>ECU verbiedt de motor te starten</value>
+  </data>
+  <data name="ErrUniCode" xml:space="preserve">
+    <value>ECU heeft de 'Universele Code' ontvangen</value>
+  </data>
+  <data name="ErrC4" xml:space="preserve">
+    <value>Onbekende CODE FOUT (4)</value>
+  </data>
+  <data name="ErrBackdoor" xml:space="preserve">
+    <value>Achterdeur Geactiveerd</value>
+  </data>
+  <data name="ErrKeyCode" xml:space="preserve">
+    <value>Sleutel Code Fout</value>
+  </data>
+  <data name="ErrUnrCode" xml:space="preserve">
+    <value>Foute of Onbekende Code</value>
+  </data>
+  <data name="ErrLinkDown" xml:space="preserve">
+    <value>Geen Code Ontvangen of Geen Verbinding</value>
+  </data>
+  <data name="Coil1" xml:space="preserve">
+    <value>Bobine 1</value>
+  </data>
+  <data name="Coil2" xml:space="preserve">
+    <value>Bobine 2</value>
+  </data>
+  <data name="CONS_REG" xml:space="preserve">
+    <value>Stationair Toerental</value>
+  </data>
+  <data name="DELREG" xml:space="preserve">
+    <value>Stappen Correctie (Delta)</value>
+  </data>
+  <data name="EVAP" xml:space="preserve">
+    <value>EVAP Klep</value>
+  </data>
+  <data name="ErrACParam" xml:space="preserve">
+    <value>Automatische Callibratie Parameter</value>
+  </data>
+  <data name="ErrRAM" xml:space="preserve">
+    <value>RAM</value>
+  </data>
+  <data name="ErrROM" xml:space="preserve">
+    <value>ROM</value>
+  </data>
+  <data name="ErrEEPROM" xml:space="preserve">
+    <value>EEPROM</value>
+  </data>
+  <data name="ErrCPU" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="ErrRPMSens" xml:space="preserve">
+    <value>BDP/TPM Sensor</value>
+  </data>
+  <data name="ErrF7" xml:space="preserve">
+    <value>Onbekende FUNC FOUT (7)</value>
+  </data>
+  <data name="ErrF8" xml:space="preserve">
+    <value>Onbekende FUNC FOUT (8)</value>
+  </data>
+  <data name="FuelPump" xml:space="preserve">
+    <value>Brandstofpomp Relais</value>
+  </data>
+  <data name="GenericRelay" xml:space="preserve">
+    <value>Algemeen Relais</value>
+  </data>
+  <data name="ErrTPS" xml:space="preserve">
+    <value>Gasklep Positie Sensor</value>
+  </data>
+  <data name="ErrMAP" xml:space="preserve">
+    <value>MAP Sensor</value>
+  </data>
+  <data name="ErrLambda" xml:space="preserve">
+    <value>Lambda Sensor</value>
+  </data>
+  <data name="ErrECT" xml:space="preserve">
+    <value>Water Temperatuur Sensor</value>
+  </data>
+  <data name="ErrIAT" xml:space="preserve">
+    <value>Lucht Temperatuur Sensor</value>
+  </data>
+  <data name="ErrBattV" xml:space="preserve">
+    <value>Accu Voltage</value>
+  </data>
+  <data name="ErrIdleReg" xml:space="preserve">
+    <value>Stationair Regeling</value>
+  </data>
+  <data name="ErrI8" xml:space="preserve">
+    <value>Onbekende INVOER FOUT (8)</value>
+  </data>
+  <data name="Injector" xml:space="preserve">
+    <value>Injector</value>
+  </data>
+  <data name="INTEGR" xml:space="preserve">
+    <value>Stationair Stappen Integrale Toename</value>
+  </data>
+  <data name="K_O2" xml:space="preserve">
+    <value>Lambda Sensor Correctie</value>
+  </data>
+  <data name="MP2_MP8" xml:space="preserve">
+    <value>Spruitstuk Absolute Druk</value>
+  </data>
+  <data name="MT_AIR_L" xml:space="preserve">
+    <value>Lucht Temperatuur</value>
+  </data>
+  <data name="MT_EAU_L" xml:space="preserve">
+    <value>Water Temperatuur</value>
+  </data>
+  <data name="ErrInj" xml:space="preserve">
+    <value>Injector</value>
+  </data>
+  <data name="ErrCoil1" xml:space="preserve">
+    <value>Bobine 1</value>
+  </data>
+  <data name="ErrCoil2" xml:space="preserve">
+    <value>Bobine 2</value>
+  </data>
+  <data name="ErrIAV" xml:space="preserve">
+    <value>Stationair Stappen Motor</value>
+  </data>
+  <data name="ErrEVAP" xml:space="preserve">
+    <value>EVAP Klep</value>
+  </data>
+  <data name="ErrAirCo" xml:space="preserve">
+    <value>Airco</value>
+  </data>
+  <data name="ErrFuelPump" xml:space="preserve">
+    <value>Brandstofpomp</value>
+  </data>
+  <data name="ErrGenRel" xml:space="preserve">
+    <value>Algemeen Systeem Relais</value>
+  </data>
+  <data name="OFNNTR" xml:space="preserve">
+    <value>Stationair Toerental Compensatie</value>
+  </data>
+  <data name="PERIODE" xml:space="preserve">
+    <value>Toerental</value>
+  </data>
+  <data name="PROP" xml:space="preserve">
+    <value>Stationair Stappen Proportionele Toename</value>
+  </data>
+  <data name="REVmeter" xml:space="preserve">
+    <value>BDP sensor (toerenteller)</value>
+  </data>
+  <data name="StaEngRun" xml:space="preserve">
+    <value>Motor Loopt</value>
+  </data>
+  <data name="StaStepACOK" xml:space="preserve">
+    <value>Stappen Automatische Callibratie AAN</value>
+  </data>
+  <data name="StaPLatchOK" xml:space="preserve">
+    <value>Stroomtoevoer Schakeldraad OK</value>
+  </data>
+  <data name="StaSensOK" xml:space="preserve">
+    <value>Sensor Signalen OK</value>
+  </data>
+  <data name="StaThrMM" xml:space="preserve">
+    <value>Gasklep op Min/Max</value>
+  </data>
+  <data name="StaClLoop" xml:space="preserve">
+    <value>Lambda Sensor in Closed Loop</value>
+  </data>
+  <data name="StaAirCoON" xml:space="preserve">
+    <value>Airco AAN</value>
+  </data>
+  <data name="StaMixACOK" xml:space="preserve">
+    <value>Mengsel Automatische Callibratie AAN</value>
+  </data>
+  <data name="steps" xml:space="preserve">
+    <value>stappen</value>
+  </data>
+  <data name="TRIMRAM" xml:space="preserve">
+    <value>Trimmer Positie</value>
+  </data>
+  <data name="T_INJ_AP" xml:space="preserve">
+    <value>Injectie Duur</value>
+  </data>
+  <data name="V_BATT" xml:space="preserve">
+    <value>Accu Voltage</value>
+  </data>
+  <data name="yes_no" xml:space="preserve">
+    <value>JA;;NEE</value>
+  </data>
+  <data name="AtMAX" xml:space="preserve">
+    <value>Boven MAX</value>
+  </data>
+  <data name="AtMIN" xml:space="preserve">
+    <value>Onder MIN</value>
+  </data>
+  <data name="MaxLEAN" xml:space="preserve">
+    <value>Max ARM</value>
+  </data>
+  <data name="MaxRICH" xml:space="preserve">
+    <value>Max RIJK</value>
+  </data>
+  <data name="OpenCircuit" xml:space="preserve">
+    <value>Open Circuit</value>
+  </data>
+  <data name="rpm" xml:space="preserve">
+    <value>TPM</value>
+  </data>
+  <data name="ShortToGND" xml:space="preserve">
+    <value>Kortsluiting naar Aarde</value>
+  </data>
+  <data name="ShortToGNDorOpen" xml:space="preserve">
+    <value>Kortsluiting naar Aarde/Open</value>
+  </data>
+  <data name="ShortToVcc" xml:space="preserve">
+    <value>Kortsluiting naar +Vcc</value>
+  </data>
+  <data name="Therm" xml:space="preserve">
+    <value>Kortsluiting naar Aarde/+Vcc/Therm</value>
+  </data>
+  <data name="Act" xml:space="preserve">
+    <value>[A]</value>
+  </data>
+  <data name="Sto" xml:space="preserve">
+    <value>[S]</value>
+  </data>
+  <data name="Ver" xml:space="preserve">
+    <value>[V]</value>
+  </data>
+  <data name="autodetect" xml:space="preserve">
+    <value>Automatische Detectie (alleen IAW-x6F/x8F(D))</value>
+  </data>
+  <data name="Connecting" xml:space="preserve">
+    <value>Zet het contact aan, aub...</value>
+  </data>
+  <data name="UnknownISO" xml:space="preserve">
+    <value>Onbekend</value>
+  </data>
+  <data name="F10_Connect" xml:space="preserve">
+    <value>[F10] Verbinden</value>
+  </data>
+  <data name="F10_Disconnect" xml:space="preserve">
+    <value>[F10] Verbreken</value>
+  </data>
+  <data name="Cancelled" xml:space="preserve">
+    <value>GEANNULEERD</value>
+  </data>
+  <data name="ClearingErrors" xml:space="preserve">
+    <value>Verwijderen fout codes...</value>
+  </data>
+  <data name="EnsureIgnOnEngStop" xml:space="preserve">
+    <value>Het contact moet AAN zijn, en de motor UIT</value>
+  </data>
+  <data name="Failed" xml:space="preserve">
+    <value>MISLUKT</value>
+  </data>
+  <data name="InitFailed" xml:space="preserve">
+    <value>INIT. MISLUKT</value>
+  </data>
+  <data name="Passed" xml:space="preserve">
+    <value>GESLAAGD</value>
+  </data>
+  <data name="TestDuration" xml:space="preserve">
+    <value>Als de test langer duur dan {0}s zet dan het contact UITen sluit de applicatie, aub!</value>
+  </data>
+  <data name="Testing" xml:space="preserve">
+    <value>TESTEN: {0}...</value>
+  </data>
+  <data name="Timeout" xml:space="preserve">
+    <value>TIMEOUT</value>
+  </data>
+  <data name="ConMeter" xml:space="preserve">
+    <value>Verbruik Meter</value>
+  </data>
+  <data name="EGR" xml:space="preserve">
+    <value>EGR Klep</value>
+  </data>
+  <data name="ErrAutoTrans" xml:space="preserve">
+    <value>Automatische Versnellingsbak</value>
+  </data>
+  <data name="ErrEGRVal" xml:space="preserve">
+    <value>EGR Klep</value>
+  </data>
+  <data name="ErrKnockS" xml:space="preserve">
+    <value>Klopsensor</value>
+  </data>
+  <data name="Injectors" xml:space="preserve">
+    <value>Injectoren</value>
+  </data>
+  <data name="MIL" xml:space="preserve">
+    <value>MIL Lampje</value>
+  </data>
+  <data name="NoAir" xml:space="preserve">
+    <value>Geen Lucht</value>
+  </data>
+  <data name="ErrO1a" xml:space="preserve">
+    <value>Onbekende UITVOER Fout (1a)</value>
+  </data>
+  <data name="ErrInjs" xml:space="preserve">
+    <value>Injectoren</value>
+  </data>
+  <data name="ErrO2a" xml:space="preserve">
+    <value>Onbekende UITVOER Fout (2a)</value>
+  </data>
+  <data name="ErrO3a" xml:space="preserve">
+    <value>Onbekende UITVOER Fout (3a)</value>
+  </data>
+  <data name="ErrO4a" xml:space="preserve">
+    <value>Onbekende UITVOER Fout (4a)</value>
+  </data>
+  <data name="ErrMixRatio" xml:space="preserve">
+    <value>Mengsel Verhouding</value>
+  </data>
+  <data name="ErrWasteG" xml:space="preserve">
+    <value>Waste Gate</value>
+  </data>
+  <data name="ErrConMeter" xml:space="preserve">
+    <value>Verbruiks Meter</value>
+  </data>
+  <data name="ErrEGRCtrl" xml:space="preserve">
+    <value>EGR Regeling</value>
+  </data>
+  <data name="ErrMIL" xml:space="preserve">
+    <value>MIL Lampje</value>
+  </data>
+  <data name="StaAdvDecr" xml:space="preserve">
+    <value>Ontsteking Vervroeging Verlaagd vanwege Kloppen</value>
+  </data>
+  <data name="StaGearEng" xml:space="preserve">
+    <value>Versnelling Ingeschakeld</value>
+  </data>
+  <data name="TooMuchAir" xml:space="preserve">
+    <value>Te Veel Lucht</value>
+  </data>
+  <data name="COMnotValid" xml:space="preserve">
+    <value>Interface poort FOUT</value>
+  </data>
+  <data name="OFFSET1" xml:space="preserve">
+    <value>Automatische Callibratie Injectie Compensatie @ ZONE 1</value>
+  </data>
+  <data name="OFFSET2" xml:space="preserve">
+    <value>Automatische Callibratie Injectie Compensatie @ ZONE 2</value>
+  </data>
+  <data name="OFFSET3" xml:space="preserve">
+    <value>Automatische Callibratie Injectie Compensatie @ ZONE 3</value>
+  </data>
+  <data name="OFFSET4" xml:space="preserve">
+    <value>Automatische Callibratie Injectie Compensatie @ ZONE 4</value>
+  </data>
+  <data name="OFFSET5" xml:space="preserve">
+    <value>Automatische Callibratie Injectie Compensatie @ ZONE 5</value>
+  </data>
+  <data name="OFFSET6" xml:space="preserve">
+    <value>Automatische Callibratie Injectie Compensatie@ ZONE 6</value>
+  </data>
+  <data name="OFFSETm" xml:space="preserve">
+    <value>Automatische Callibratie Injectie Compensatie@ IDLE</value>
+  </data>
+  <data name="PreviouslySelectedPort" xml:space="preserve">
+    <value>De eerder geselcteerde poort {0} is niet meer beschikbaar. Selecteer een andere poort aub.</value>
+  </data>
+  <data name="ErrI2" xml:space="preserve">
+    <value>Onbekend INVOER FOUT (2)</value>
+  </data>
+  <data name="ErrInj1" xml:space="preserve">
+    <value>Injectoren 1</value>
+  </data>
+  <data name="ErrInj2" xml:space="preserve">
+    <value>Injectoren 2</value>
+  </data>
+  <data name="ConnectedTo" xml:space="preserve">
+    <value>VERBONDEN MET:</value>
+  </data>
+  <data name="Errors" xml:space="preserve">
+    <value>FOUTEN:</value>
+  </data>
+  <data name="Parameters" xml:space="preserve">
+    <value>PARAMETERS:</value>
+  </data>
+  <data name="Simulation" xml:space="preserve">
+    <value>SIMULATIE MODUS!!!</value>
+  </data>
+  <data name="K_O2_RAW" xml:space="preserve">
+    <value>Lambda Sensor Voltage</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>&amp;Start</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>&amp;Stop</value>
+  </data>
+  <data name="EscCancel" xml:space="preserve">
+    <value>Druk [Esc] om te Annuleren</value>
+  </data>
+  <data name="CommLost" xml:space="preserve">
+    <value>ECU Antwoord Niet</value>
+  </data>
+  <data name="Press_F10" xml:space="preserve">
+    <value>Druk [F10] om de verbinding te sluiten of [F12] om opnieuw te verbinden</value>
+  </data>
+  <data name="F11_Confirm" xml:space="preserve">
+    <value>Druk [F11] om te Bevestigen</value>
+  </data>
+  <data name="TurnOFF" xml:space="preserve">
+    <value>Zet het contact UIT aub...</value>
+  </data>
+  <data name="UnrecECU" xml:space="preserve">
+    <value>ECU wordt niet herkend, zet het contact UIT aub...</value>
+  </data>
+  <data name="FABEEAT" xml:space="preserve">
+    <value>Zelf-Stellend Geactiveerd in EEPROM</value>
+  </data>
+  <data name="FABEEATi" xml:space="preserve">
+    <value>Stationair Zelf-Stellend Geactiveerd in EEPROM</value>
+  </data>
+  <data name="FABEPAT" xml:space="preserve">
+    <value>Zelf-Stellend Geactiveerd in EPROM</value>
+  </data>
+  <data name="FABEPATi" xml:space="preserve">
+    <value>Stationair Zelf-Stellend Geactiveerd in EPROM</value>
+  </data>
+  <data name="FLGSMA" xml:space="preserve">
+    <value>Lambda in Closed Loop</value>
+  </data>
+  <data name="Injector1" xml:space="preserve">
+    <value>Injector 1</value>
+  </data>
+  <data name="Injector2" xml:space="preserve">
+    <value>Injector 2</value>
+  </data>
+  <data name="Injector3" xml:space="preserve">
+    <value>Injector 3</value>
+  </data>
+  <data name="Injector4" xml:space="preserve">
+    <value>Injector 4</value>
+  </data>
+  <data name="INJ_AVA" xml:space="preserve">
+    <value>Injectie Timing Hoek</value>
+  </data>
+  <data name="MP2_MP8t" xml:space="preserve">
+    <value>Spruitstuk Absolute Druk (TURBO)</value>
+  </data>
+  <data name="OverB" xml:space="preserve">
+    <value>Over Boost</value>
+  </data>
+  <data name="T_VAE" xml:space="preserve">
+    <value>VAE Werk Cyclus (Stationair Regeling)</value>
+  </data>
+  <data name="StaSigPanOK" xml:space="preserve">
+    <value>Controle Lampjes OK</value>
+  </data>
+  <data name="StaABSON" xml:space="preserve">
+    <value>ABS aktief</value>
+  </data>
+  <data name="StaVAESC" xml:space="preserve">
+    <value>VAE Zelf Reiniging bezig</value>
+  </data>
+  <data name="VAE" xml:space="preserve">
+    <value>Stationair Regeling Klep (VAE)</value>
+  </data>
+</root>

@@ -1,0 +1,666 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ACrelay" xml:space="preserve">
+    <value>Relé AC</value>
+  </data>
+  <data name="Act" xml:space="preserve">
+    <value>[A]</value>
+  </data>
+  <data name="ADGAIN" xml:space="preserve">
+    <value>AC Parametro Ganho (carga med.)</value>
+  </data>
+  <data name="Adjusting" xml:space="preserve">
+    <value>AJUSTANDO: {0}...</value>
+  </data>
+  <data name="ADOFFPL" xml:space="preserve">
+    <value>AC Parametro Offset (carga min.)</value>
+  </data>
+  <data name="ADOFFPURG" xml:space="preserve">
+    <value>AC Parametro Offset (carga min. , EVAP lig)</value>
+  </data>
+  <data name="ADOFFSET" xml:space="preserve">
+    <value>AC Parametro Offset Parameter (carga min., EVAP desl)</value>
+  </data>
+  <data name="ALFAFTR" xml:space="preserve">
+    <value>Correcção Regulador de FLT</value>
+  </data>
+  <data name="ALFAR" xml:space="preserve">
+    <value>Posição Regulador Relanti</value>
+  </data>
+  <data name="ALFAU" xml:space="preserve">
+    <value>Correcção de Autocalibração</value>
+  </data>
+  <data name="ALFAUC" xml:space="preserve">
+    <value>Correcção de Autocalibração com  A/C</value>
+  </data>
+  <data name="ANG_PAP0" xml:space="preserve">
+    <value>Angulo Abertura Acelerador</value>
+  </data>
+  <data name="AtMAX" xml:space="preserve">
+    <value>Acima MAX</value>
+  </data>
+  <data name="AtMIN" xml:space="preserve">
+    <value>Abaixo MIN</value>
+  </data>
+  <data name="autodetect" xml:space="preserve">
+    <value>Detecção Automática</value>
+  </data>
+  <data name="AVANCE" xml:space="preserve">
+    <value>Avanço de Ignição</value>
+  </data>
+  <data name="Cancelled" xml:space="preserve">
+    <value>CANCELADO</value>
+  </data>
+  <data name="ClearingErrors" xml:space="preserve">
+    <value>A apagar códigos de erro...</value>
+  </data>
+  <data name="Coil1" xml:space="preserve">
+    <value>Bobine 1</value>
+  </data>
+  <data name="Coil2" xml:space="preserve">
+    <value>Bobine 2</value>
+  </data>
+  <data name="CommLost" xml:space="preserve">
+    <value>Sem resposta da ECU</value>
+  </data>
+  <data name="COMnotValid" xml:space="preserve">
+    <value>ERRO da porta do Interface</value>
+  </data>
+  <data name="COMopenError" xml:space="preserve">
+    <value>Ocorreu um erro enquanto abria a porta {0}.</value>
+  </data>
+  <data name="ConMeter" xml:space="preserve">
+    <value>Medidor de Consumo</value>
+  </data>
+  <data name="ConnectedTo" xml:space="preserve">
+    <value>CONECTADO A:</value>
+  </data>
+  <data name="Connecting" xml:space="preserve">
+    <value>Por favor LIGUE a ignição...</value>
+  </data>
+  <data name="CONS_REG" xml:space="preserve">
+    <value>Velocidade do motor ao Relanti</value>
+  </data>
+  <data name="DELREG" xml:space="preserve">
+    <value>Correcção do regulador (Delta)</value>
+  </data>
+  <data name="EGR" xml:space="preserve">
+    <value>Válvula EGR</value>
+  </data>
+  <data name="EnsureIgnOnEngStop" xml:space="preserve">
+    <value>Assegure-se que a ignição está LIGADA e o motor DESLIGADO.</value>
+  </data>
+  <data name="ErrACParam" xml:space="preserve">
+    <value>Parâmetro de Auto calibração</value>
+  </data>
+  <data name="ErrAirCo" xml:space="preserve">
+    <value>Ar Condicionado</value>
+  </data>
+  <data name="ErrAutoTrans" xml:space="preserve">
+    <value>Transmissão automática</value>
+  </data>
+  <data name="ErrBackdoor" xml:space="preserve">
+    <value>Porta da Mala Activada</value>
+  </data>
+  <data name="ErrBattV" xml:space="preserve">
+    <value>Voltagem da Bateria</value>
+  </data>
+  <data name="ErrC4" xml:space="preserve">
+    <value>CODIGO DE ERRO desconhecido (4)</value>
+  </data>
+  <data name="ErrCam" xml:space="preserve">
+    <value>Sensor Cam</value>
+  </data>
+  <data name="ErrCnt" xml:space="preserve">
+    <value>Contador de erros</value>
+  </data>
+  <data name="ErrCoil1" xml:space="preserve">
+    <value>Bobine de Ignição 1</value>
+  </data>
+  <data name="ErrCoil2" xml:space="preserve">
+    <value>Bobine de Ignição 2</value>
+  </data>
+  <data name="ErrConMet" xml:space="preserve">
+    <value>Medidor de Consumo</value>
+  </data>
+  <data name="ErrCPU" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="ErrDigimatic" xml:space="preserve">
+    <value>Sinal Digimatic</value>
+  </data>
+  <data name="ErrECT" xml:space="preserve">
+    <value>Sensor temperatura da água</value>
+  </data>
+  <data name="ErrEEPROM" xml:space="preserve">
+    <value>EEPROM</value>
+  </data>
+  <data name="ErrEGRCtrl" xml:space="preserve">
+    <value>Controle EGR</value>
+  </data>
+  <data name="ErrEGRVal" xml:space="preserve">
+    <value>Válvula EGR</value>
+  </data>
+  <data name="ErrEPROM" xml:space="preserve">
+    <value>EPROM</value>
+  </data>
+  <data name="ErrEVAP" xml:space="preserve">
+    <value>Válvula EVAP</value>
+  </data>
+  <data name="ErrF7" xml:space="preserve">
+    <value>ERRO desconhecido FUNC (7)</value>
+  </data>
+  <data name="ErrF8" xml:space="preserve">
+    <value>ERRO desconhecido FUNC (8)</value>
+  </data>
+  <data name="ErrFuelPump" xml:space="preserve">
+    <value>Bomba de combustível</value>
+  </data>
+  <data name="ErrGenRel" xml:space="preserve">
+    <value>Relé Genérico do Sistema</value>
+  </data>
+  <data name="ErrI2" xml:space="preserve">
+    <value>ERRO desconhecido de INPUT  (2)</value>
+  </data>
+  <data name="ErrI8" xml:space="preserve">
+    <value>ERRO desconhecido de INPUT (8)</value>
+  </data>
+  <data name="ErrIAT" xml:space="preserve">
+    <value>Sensor de Temperatura de Ar</value>
+  </data>
+  <data name="ErrIAV" xml:space="preserve">
+    <value>Regulador Relanti</value>
+  </data>
+  <data name="ErrIdleReg" xml:space="preserve">
+    <value>Regulação do relanti</value>
+  </data>
+  <data name="ErrInj" xml:space="preserve">
+    <value>Injector</value>
+  </data>
+  <data name="ErrInj1" xml:space="preserve">
+    <value>Injectores (grupo 1)</value>
+  </data>
+  <data name="ErrInj2" xml:space="preserve">
+    <value>Injectores (grupo 2)</value>
+  </data>
+  <data name="ErrInjs" xml:space="preserve">
+    <value>Injectores</value>
+  </data>
+  <data name="ErrKeyCode" xml:space="preserve">
+    <value>Erro código da chave</value>
+  </data>
+  <data name="ErrKnock" xml:space="preserve">
+    <value>Sensor de pré-ignição</value>
+  </data>
+  <data name="ErrKnockS" xml:space="preserve">
+    <value>Sensor de pré-ignição</value>
+  </data>
+  <data name="ErrLambda" xml:space="preserve">
+    <value>Sonda Lambda</value>
+  </data>
+  <data name="ErrLinkDown" xml:space="preserve">
+    <value>Sem Código Recebido ou Ligação em Baixo</value>
+  </data>
+  <data name="ErrMAP" xml:space="preserve">
+    <value>Sensor MAP</value>
+  </data>
+  <data name="ErrMIL" xml:space="preserve">
+    <value>Lâmpada MIL</value>
+  </data>
+  <data name="ErrMixRatio" xml:space="preserve">
+    <value>Relação de Mistura</value>
+  </data>
+  <data name="ErrNeutralGear" xml:space="preserve">
+    <value>Sinal Neutral/drive</value>
+  </data>
+  <data name="ErrNoSync" xml:space="preserve">
+    <value>ECU não sincronizada com o CODE</value>
+  </data>
+  <data name="ErrO1a" xml:space="preserve">
+    <value>ERRO desconhecido de  OUTPUT (1a)</value>
+  </data>
+  <data name="ErrO2a" xml:space="preserve">
+    <value>ERRO desconhecido de OUTPUT (2a)</value>
+  </data>
+  <data name="ErrO3a" xml:space="preserve">
+    <value>ERRO desconhecido de OUTPUT (3a)</value>
+  </data>
+  <data name="ErrO4a" xml:space="preserve">
+    <value>ERRO desconhecido de OUTPUT (4a)</value>
+  </data>
+  <data name="Errors" xml:space="preserve">
+    <value>ERROS:</value>
+  </data>
+  <data name="ErrRAM" xml:space="preserve">
+    <value>RAM</value>
+  </data>
+  <data name="ErrROM" xml:space="preserve">
+    <value>ROM</value>
+  </data>
+  <data name="ErrRPMSens" xml:space="preserve">
+    <value>Sensor TDC/RPM</value>
+  </data>
+  <data name="ErrSMOT" xml:space="preserve">
+    <value>Sensor SMOT</value>
+  </data>
+  <data name="ErrSPS" xml:space="preserve">
+    <value>Sequência Painel de Sinal</value>
+  </data>
+  <data name="ErrStartDis" xml:space="preserve">
+    <value>ECU Desautorizou Arranque do Motor</value>
+  </data>
+  <data name="ErrTPS" xml:space="preserve">
+    <value>Sensor de posição do Acelerador</value>
+  </data>
+  <data name="ErrUniCode" xml:space="preserve">
+    <value>ECU Recebeu o 'Código Universal'</value>
+  </data>
+  <data name="ErrUnrCode" xml:space="preserve">
+    <value>Código Incorrecto ou Desconhecido</value>
+  </data>
+  <data name="ErrVAE" xml:space="preserve">
+    <value>VAE bloqueado em aberto ou fechado</value>
+  </data>
+  <data name="ErrWasteG" xml:space="preserve">
+    <value>Waste Gate</value>
+  </data>
+  <data name="EscCancel" xml:space="preserve">
+    <value>Carrega em [Esc] para Cancelar</value>
+  </data>
+  <data name="EVAP" xml:space="preserve">
+    <value>Válvula EVAP</value>
+  </data>
+  <data name="F10_Connect" xml:space="preserve">
+    <value>[F10] Ligar</value>
+  </data>
+  <data name="F10_Disconnect" xml:space="preserve">
+    <value>[F10] Desligar</value>
+  </data>
+  <data name="F11_Confirm" xml:space="preserve">
+    <value>Tecla [F11] para Confirmar</value>
+  </data>
+  <data name="FABEEAT" xml:space="preserve">
+    <value>Auto-Adaptação Activada na EEPROM</value>
+  </data>
+  <data name="FABEEATi" xml:space="preserve">
+    <value>Auto-Adaptação de relanti Activada na EEPROM</value>
+  </data>
+  <data name="FABEPAT" xml:space="preserve">
+    <value>Auto-Adaptação Activada na EPROM</value>
+  </data>
+  <data name="FABEPATi" xml:space="preserve">
+    <value>Auto-Adaptação de relanti Activada na EPROM</value>
+  </data>
+  <data name="Failed" xml:space="preserve">
+    <value>FALHA</value>
+  </data>
+  <data name="FLGSMA" xml:space="preserve">
+    <value>Lambda em Loop fechado</value>
+  </data>
+  <data name="FuelPump" xml:space="preserve">
+    <value>Relé Bomba Combustível</value>
+  </data>
+  <data name="GenericRelay" xml:space="preserve">
+    <value>Relé Genérico</value>
+  </data>
+  <data name="InitFailed" xml:space="preserve">
+    <value>FALHOU INIT. </value>
+  </data>
+  <data name="Injector" xml:space="preserve">
+    <value>Injector</value>
+  </data>
+  <data name="Injector1" xml:space="preserve">
+    <value>Injector 1</value>
+  </data>
+  <data name="Injector2" xml:space="preserve">
+    <value>Injector 2</value>
+  </data>
+  <data name="Injector3" xml:space="preserve">
+    <value>Injector 3</value>
+  </data>
+  <data name="Injector4" xml:space="preserve">
+    <value>Injector 4</value>
+  </data>
+  <data name="Injectors" xml:space="preserve">
+    <value>Injectores</value>
+  </data>
+  <data name="INJ_AVA" xml:space="preserve">
+    <value>Ângulo de Temporização da Injecção</value>
+  </data>
+  <data name="InProceed" xml:space="preserve">
+    <value>PENDENTE...</value>
+  </data>
+  <data name="INTEGR" xml:space="preserve">
+    <value>Ganho Integral do Regulador Relanti</value>
+  </data>
+  <data name="K_O2" xml:space="preserve">
+    <value>Correcção da Sonda Lambda</value>
+  </data>
+  <data name="K_O2_RAW" xml:space="preserve">
+    <value>Voltagem da Sonda Lambda</value>
+  </data>
+  <data name="MaxLEAN" xml:space="preserve">
+    <value>Max POBRE</value>
+  </data>
+  <data name="MaxRICH" xml:space="preserve">
+    <value>Max RICO</value>
+  </data>
+  <data name="MIL" xml:space="preserve">
+    <value>Lâmpada MIL</value>
+  </data>
+  <data name="MP2_MP8" xml:space="preserve">
+    <value>Pressão Absoluta da Admissão</value>
+  </data>
+  <data name="MP2_MP8t" xml:space="preserve">
+    <value>Pressão absoluta da Admissão (TURBO)</value>
+  </data>
+  <data name="MT_AIR_L" xml:space="preserve">
+    <value>Temperatura do Ar</value>
+  </data>
+  <data name="MT_EAU_L" xml:space="preserve">
+    <value>Temperatura Água</value>
+  </data>
+  <data name="NoAir" xml:space="preserve">
+    <value>Sem Ar</value>
+  </data>
+  <data name="OFFSET1" xml:space="preserve">
+    <value>Autocalibração da Injecção Offset @ ZONA 1</value>
+  </data>
+  <data name="OFFSET2" xml:space="preserve">
+    <value>Autocalibração da Injecção Offset @ ZONA 2</value>
+  </data>
+  <data name="OFFSET3" xml:space="preserve">
+    <value>Autocalibração da Injecção Offset @ ZONA 3</value>
+  </data>
+  <data name="OFFSET4" xml:space="preserve">
+    <value>Autocalibração da Injecção Offset @ ZONA 4</value>
+  </data>
+  <data name="OFFSET5" xml:space="preserve">
+    <value>Autocalibração da Injecção Offset @ ZONA 5</value>
+  </data>
+  <data name="OFFSET6" xml:space="preserve">
+    <value>Autocalibração da Injecção Offset @ ZONA 6</value>
+  </data>
+  <data name="OFFSETm" xml:space="preserve">
+    <value>Autocalibração da Injecção Offset @ RELANTI</value>
+  </data>
+  <data name="OFNNTR" xml:space="preserve">
+    <value>Desvio da Rotação ao Relanti</value>
+  </data>
+  <data name="OpenCircuit" xml:space="preserve">
+    <value>Circuito Aberto</value>
+  </data>
+  <data name="OverB" xml:space="preserve">
+    <value>Over Boost</value>
+  </data>
+  <data name="Parameters" xml:space="preserve">
+    <value>PARAMETROS:</value>
+  </data>
+  <data name="Passed" xml:space="preserve">
+    <value>PASSOU</value>
+  </data>
+  <data name="PERIODE" xml:space="preserve">
+    <value>Rotação Motor</value>
+  </data>
+  <data name="Press_F10" xml:space="preserve">
+    <value>Teclas [F10] para desligar ligação ou [F12] para tentar re-conectar</value>
+  </data>
+  <data name="PreviouslySelectedPort" xml:space="preserve">
+    <value>Porta seleccionada anteriormente {0} não está disponível. Por favor seleccione outra porta.</value>
+  </data>
+  <data name="PROP" xml:space="preserve">
+    <value>Ganho Proporcional do Regulador Relanti</value>
+  </data>
+  <data name="REVmeter" xml:space="preserve">
+    <value>Conta Rotações</value>
+  </data>
+  <data name="rpm" xml:space="preserve">
+    <value>RPM</value>
+  </data>
+  <data name="ShortToGND" xml:space="preserve">
+    <value>Ligado à Terra (GND)</value>
+  </data>
+  <data name="ShortToGNDorOpen" xml:space="preserve">
+    <value>Ligado à Terra/Aberto</value>
+  </data>
+  <data name="ShortToVcc" xml:space="preserve">
+    <value>Ligado a +Vcc</value>
+  </data>
+  <data name="Simulation" xml:space="preserve">
+    <value>MODO DE SIMULAÇÃO!!!</value>
+  </data>
+  <data name="StaABSON" xml:space="preserve">
+    <value>ABS activo</value>
+  </data>
+  <data name="StaAdvDecr" xml:space="preserve">
+    <value>Avanço de Ignição Diminuído por Pré-Explosão</value>
+  </data>
+  <data name="StaAirCoON" xml:space="preserve">
+    <value>Ar Condicionado LIGADO</value>
+  </data>
+  <data name="StaClLoop" xml:space="preserve">
+    <value>Sonda Lambda em Loop Fechado</value>
+  </data>
+  <data name="StaEngRun" xml:space="preserve">
+    <value>Motor em Funcionamento</value>
+  </data>
+  <data name="StaGearEng" xml:space="preserve">
+    <value>Mudança Engatada</value>
+  </data>
+  <data name="StaMixACOK" xml:space="preserve">
+    <value>Auto Calibração de mistura ACTIVADA</value>
+  </data>
+  <data name="StaPLatchOK" xml:space="preserve">
+    <value>Linha Alimentação OK</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>&amp;Start</value>
+  </data>
+  <data name="StaSensOK" xml:space="preserve">
+    <value>Sinais dos Sensores OK</value>
+  </data>
+  <data name="StaSigPanOK" xml:space="preserve">
+    <value>Aviso do Painel OK</value>
+  </data>
+  <data name="StaStepACOK" xml:space="preserve">
+    <value>Regulador de AutoCalibração ACTIVADO</value>
+  </data>
+  <data name="StaThrMM" xml:space="preserve">
+    <value>Acelerador no Min/Max</value>
+  </data>
+  <data name="StaVAESC" xml:space="preserve">
+    <value>Auto -Limpeza VAE em Curso</value>
+  </data>
+  <data name="Stepper" xml:space="preserve">
+    <value>Regulador do motor (Actuador de Relanti)</value>
+  </data>
+  <data name="StepReset" xml:space="preserve">
+    <value>Reset da Auto-Calibração do Regulador de Relanti </value>
+  </data>
+  <data name="steps" xml:space="preserve">
+    <value>Passos</value>
+  </data>
+  <data name="StepSet" xml:space="preserve">
+    <value>Ajustar correcção do regulador (ALFAFTR)</value>
+  </data>
+  <data name="Sto" xml:space="preserve">
+    <value>[S]</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>&amp;Stop</value>
+  </data>
+  <data name="TestDuration" xml:space="preserve">
+    <value>Se o teste durar mais de {0}s por favor desligue a ignição e feche a aplicação!</value>
+  </data>
+  <data name="Testing" xml:space="preserve">
+    <value>TESTANDO: {0}...</value>
+  </data>
+  <data name="Therm" xml:space="preserve">
+    <value>Curto ao GND/+Vcc/Therm</value>
+  </data>
+  <data name="Timeout" xml:space="preserve">
+    <value>TIMEOUT</value>
+  </data>
+  <data name="ToggleStepAC" xml:space="preserve">
+    <value>Alternar Auto-Calibração do regulador de Relanti</value>
+  </data>
+  <data name="ToggleTrimAC" xml:space="preserve">
+    <value>Alternar Auto-Calibração da mistura de combustível</value>
+  </data>
+  <data name="TooMuchAir" xml:space="preserve">
+    <value>Demasiado ar</value>
+  </data>
+  <data name="TRIMRAM" xml:space="preserve">
+    <value>Posição do regulador</value>
+  </data>
+  <data name="TrimReset" xml:space="preserve">
+    <value>Reset da Auto-Calibração de regulação de combustível</value>
+  </data>
+  <data name="TrimSet" xml:space="preserve">
+    <value>Regular posição do trimmer (TRIMRAM)</value>
+  </data>
+  <data name="TurnOFF" xml:space="preserve">
+    <value>Por favor DESLIGUE a ignição...</value>
+  </data>
+  <data name="T_INJ_AP" xml:space="preserve">
+    <value>Duração da Injecção</value>
+  </data>
+  <data name="T_VAE" xml:space="preserve">
+    <value>VAE Ciclo de trabalho (Controle Relanti)</value>
+  </data>
+  <data name="UnknownISO" xml:space="preserve">
+    <value>Desconhecido</value>
+  </data>
+  <data name="UnrecECU" xml:space="preserve">
+    <value>ECU não pode ser reconhecida, por favor DESLIGUE a ignição...</value>
+  </data>
+  <data name="VAE" xml:space="preserve">
+    <value>Valvula Controle Relanti (VAE)</value>
+  </data>
+  <data name="Ver" xml:space="preserve">
+    <value>[V]</value>
+  </data>
+  <data name="V_BATT" xml:space="preserve">
+    <value>Voltagem da Bateria</value>
+  </data>
+  <data name="yes_no" xml:space="preserve">
+    <value>SIM;;NÃO</value>
+  </data>
+</root>
