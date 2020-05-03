@@ -150,10 +150,7 @@
             // 
             // panel2
             // 
-            this.panel2.AccessibleDescription = null;
-            this.panel2.AccessibleName = null;
             resources.ApplyResources(this.panel2, "panel2");
-            this.panel2.BackgroundImage = null;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.label24);
             this.panel2.Controls.Add(this.lblIsoCode);
@@ -169,74 +166,55 @@
             // 
             // label24
             // 
-            this.label24.AccessibleDescription = null;
-            this.label24.AccessibleName = null;
             resources.ApplyResources(this.label24, "label24");
             this.label24.Name = "label24";
             this.toolTip1.SetToolTip(this.label24, resources.GetString("label24.ToolTip"));
             // 
             // lblIsoCode
             // 
-            this.lblIsoCode.AccessibleDescription = null;
-            this.lblIsoCode.AccessibleName = null;
             resources.ApplyResources(this.lblIsoCode, "lblIsoCode");
             this.lblIsoCode.Name = "lblIsoCode";
             this.toolTip1.SetToolTip(this.lblIsoCode, resources.GetString("lblIsoCode.ToolTip"));
             // 
             // lblCarModel
             // 
-            this.lblCarModel.AccessibleDescription = null;
-            this.lblCarModel.AccessibleName = null;
             resources.ApplyResources(this.lblCarModel, "lblCarModel");
             this.lblCarModel.Name = "lblCarModel";
             this.toolTip1.SetToolTip(this.lblCarModel, resources.GetString("lblCarModel.ToolTip"));
             // 
             // label20
             // 
-            this.label20.AccessibleDescription = null;
-            this.label20.AccessibleName = null;
             resources.ApplyResources(this.label20, "label20");
             this.label20.Name = "label20";
             this.toolTip1.SetToolTip(this.label20, resources.GetString("label20.ToolTip"));
             // 
             // label22
             // 
-            this.label22.AccessibleDescription = null;
-            this.label22.AccessibleName = null;
             resources.ApplyResources(this.label22, "label22");
             this.label22.Name = "label22";
             this.toolTip1.SetToolTip(this.label22, resources.GetString("label22.ToolTip"));
             // 
             // lblEcuType
             // 
-            this.lblEcuType.AccessibleDescription = null;
-            this.lblEcuType.AccessibleName = null;
             resources.ApplyResources(this.lblEcuType, "lblEcuType");
             this.lblEcuType.Name = "lblEcuType";
             this.toolTip1.SetToolTip(this.lblEcuType, resources.GetString("lblEcuType.ToolTip"));
             // 
             // label17
             // 
-            this.label17.AccessibleDescription = null;
-            this.label17.AccessibleName = null;
             resources.ApplyResources(this.label17, "label17");
             this.label17.Name = "label17";
             this.toolTip1.SetToolTip(this.label17, resources.GetString("label17.ToolTip"));
             // 
             // lblRepCode
             // 
-            this.lblRepCode.AccessibleDescription = null;
-            this.lblRepCode.AccessibleName = null;
             resources.ApplyResources(this.lblRepCode, "lblRepCode");
             this.lblRepCode.Name = "lblRepCode";
             this.toolTip1.SetToolTip(this.lblRepCode, resources.GetString("lblRepCode.ToolTip"));
             // 
             // btnConnect
             // 
-            this.btnConnect.AccessibleDescription = null;
-            this.btnConnect.AccessibleName = null;
             resources.ApplyResources(this.btnConnect, "btnConnect");
-            this.btnConnect.BackgroundImage = null;
             this.btnConnect.ForeColor = System.Drawing.Color.Red;
             this.btnConnect.Name = "btnConnect";
             this.toolTip1.SetToolTip(this.btnConnect, resources.GetString("btnConnect.ToolTip"));
@@ -245,21 +223,14 @@
             // 
             // panel1
             // 
-            this.panel1.AccessibleDescription = null;
-            this.panel1.AccessibleName = null;
             resources.ApplyResources(this.panel1, "panel1");
-            this.panel1.BackgroundImage = null;
             this.panel1.Controls.Add(this.tabControl1);
-            this.panel1.Font = null;
             this.panel1.Name = "panel1";
             this.toolTip1.SetToolTip(this.panel1, resources.GetString("panel1.ToolTip"));
             // 
             // tabControl1
             // 
-            this.tabControl1.AccessibleDescription = null;
-            this.tabControl1.AccessibleName = null;
             resources.ApplyResources(this.tabControl1, "tabControl1");
-            this.tabControl1.BackgroundImage = null;
             this.tabControl1.Controls.Add(this.tabPage0);
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
@@ -275,69 +246,49 @@
             // 
             // tabPage0
             // 
-            this.tabPage0.AccessibleDescription = null;
-            this.tabPage0.AccessibleName = null;
             resources.ApplyResources(this.tabPage0, "tabPage0");
-            this.tabPage0.BackgroundImage = null;
             this.tabPage0.Controls.Add(this.tableLayoutPanel4);
-            this.tabPage0.Font = null;
             this.tabPage0.Name = "tabPage0";
             this.toolTip1.SetToolTip(this.tabPage0, resources.GetString("tabPage0.ToolTip"));
             this.tabPage0.UseVisualStyleBackColor = true;
             // 
             // tableLayoutPanel4
             // 
-            this.tableLayoutPanel4.AccessibleDescription = null;
-            this.tableLayoutPanel4.AccessibleName = null;
             resources.ApplyResources(this.tableLayoutPanel4, "tableLayoutPanel4");
-            this.tableLayoutPanel4.BackgroundImage = null;
             this.tableLayoutPanel4.Controls.Add(this.groupBox2, 0, 1);
             this.tableLayoutPanel4.Controls.Add(this.groupBox1, 0, 0);
             this.tableLayoutPanel4.Controls.Add(this.groupBox3, 1, 1);
-            this.tableLayoutPanel4.Font = null;
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             this.toolTip1.SetToolTip(this.tableLayoutPanel4, resources.GetString("tableLayoutPanel4.ToolTip"));
             // 
             // groupBox2
             // 
-            this.groupBox2.AccessibleDescription = null;
-            this.groupBox2.AccessibleName = null;
             resources.ApplyResources(this.groupBox2, "groupBox2");
-            this.groupBox2.BackgroundImage = null;
             this.groupBox2.Controls.Add(this.tableLayoutPanel7);
-            this.groupBox2.Font = null;
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.TabStop = false;
             this.toolTip1.SetToolTip(this.groupBox2, resources.GetString("groupBox2.ToolTip"));
             // 
             // tableLayoutPanel7
             // 
-            this.tableLayoutPanel7.AccessibleDescription = null;
-            this.tableLayoutPanel7.AccessibleName = null;
             resources.ApplyResources(this.tableLayoutPanel7, "tableLayoutPanel7");
-            this.tableLayoutPanel7.BackgroundImage = null;
             this.tableLayoutPanel7.Controls.Add(this.dgvCOM, 0, 0);
             this.tableLayoutPanel7.Controls.Add(this.panel7, 0, 1);
-            this.tableLayoutPanel7.Font = null;
             this.tableLayoutPanel7.Name = "tableLayoutPanel7";
             this.toolTip1.SetToolTip(this.tableLayoutPanel7, resources.GetString("tableLayoutPanel7.ToolTip"));
             // 
             // dgvCOM
             // 
-            this.dgvCOM.AccessibleDescription = null;
-            this.dgvCOM.AccessibleName = null;
+            resources.ApplyResources(this.dgvCOM, "dgvCOM");
             this.dgvCOM.AllowUserToAddRows = false;
             this.dgvCOM.AllowUserToDeleteRows = false;
             this.dgvCOM.AllowUserToResizeColumns = false;
             this.dgvCOM.AllowUserToResizeRows = false;
-            resources.ApplyResources(this.dgvCOM, "dgvCOM");
-            this.dgvCOM.BackgroundImage = null;
             this.dgvCOM.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvCOM.ColumnHeadersVisible = false;
             this.dgvCOM.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.comCOM});
             this.dgvCOM.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
-            this.dgvCOM.Font = null;
             this.dgvCOM.MultiSelect = false;
             this.dgvCOM.Name = "dgvCOM";
             this.dgvCOM.ReadOnly = true;
@@ -356,23 +307,15 @@
             // 
             // panel7
             // 
-            this.panel7.AccessibleDescription = null;
-            this.panel7.AccessibleName = null;
             resources.ApplyResources(this.panel7, "panel7");
-            this.panel7.BackgroundImage = null;
             this.panel7.Controls.Add(this.cbCompat);
             this.panel7.Controls.Add(this.cbLOG);
-            this.panel7.Font = null;
             this.panel7.Name = "panel7";
             this.toolTip1.SetToolTip(this.panel7, resources.GetString("panel7.ToolTip"));
             // 
             // cbCompat
             // 
-            this.cbCompat.AccessibleDescription = null;
-            this.cbCompat.AccessibleName = null;
             resources.ApplyResources(this.cbCompat, "cbCompat");
-            this.cbCompat.BackgroundImage = null;
-            this.cbCompat.Font = null;
             this.cbCompat.Name = "cbCompat";
             this.toolTip1.SetToolTip(this.cbCompat, resources.GetString("cbCompat.ToolTip"));
             this.cbCompat.UseVisualStyleBackColor = true;
@@ -380,11 +323,7 @@
             // 
             // cbLOG
             // 
-            this.cbLOG.AccessibleDescription = null;
-            this.cbLOG.AccessibleName = null;
             resources.ApplyResources(this.cbLOG, "cbLOG");
-            this.cbLOG.BackgroundImage = null;
-            this.cbLOG.Font = null;
             this.cbLOG.Name = "cbLOG";
             this.toolTip1.SetToolTip(this.cbLOG, resources.GetString("cbLOG.ToolTip"));
             this.cbLOG.UseVisualStyleBackColor = true;
@@ -392,33 +331,25 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.AccessibleDescription = null;
-            this.groupBox1.AccessibleName = null;
             resources.ApplyResources(this.groupBox1, "groupBox1");
-            this.groupBox1.BackgroundImage = null;
             this.tableLayoutPanel4.SetColumnSpan(this.groupBox1, 2);
             this.groupBox1.Controls.Add(this.dgvECU);
-            this.groupBox1.Font = null;
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
             this.toolTip1.SetToolTip(this.groupBox1, resources.GetString("groupBox1.ToolTip"));
             // 
             // dgvECU
             // 
-            this.dgvECU.AccessibleDescription = null;
-            this.dgvECU.AccessibleName = null;
+            resources.ApplyResources(this.dgvECU, "dgvECU");
             this.dgvECU.AllowUserToAddRows = false;
             this.dgvECU.AllowUserToDeleteRows = false;
             this.dgvECU.AllowUserToResizeColumns = false;
             this.dgvECU.AllowUserToResizeRows = false;
-            resources.ApplyResources(this.dgvECU, "dgvECU");
-            this.dgvECU.BackgroundImage = null;
             this.dgvECU.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvECU.ColumnHeadersVisible = false;
             this.dgvECU.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ecuECU});
             this.dgvECU.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
-            this.dgvECU.Font = null;
             this.dgvECU.MultiSelect = false;
             this.dgvECU.Name = "dgvECU";
             this.dgvECU.ReadOnly = true;
@@ -436,23 +367,16 @@
             // 
             // groupBox3
             // 
-            this.groupBox3.AccessibleDescription = null;
-            this.groupBox3.AccessibleName = null;
             resources.ApplyResources(this.groupBox3, "groupBox3");
-            this.groupBox3.BackgroundImage = null;
             this.groupBox3.Controls.Add(this.tbHelp);
-            this.groupBox3.Font = null;
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.TabStop = false;
             this.toolTip1.SetToolTip(this.groupBox3, resources.GetString("groupBox3.ToolTip"));
             // 
             // tbHelp
             // 
-            this.tbHelp.AccessibleDescription = null;
-            this.tbHelp.AccessibleName = null;
             resources.ApplyResources(this.tbHelp, "tbHelp");
             this.tbHelp.BackColor = System.Drawing.SystemColors.Window;
-            this.tbHelp.BackgroundImage = null;
             this.tbHelp.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbHelp.Name = "tbHelp";
             this.tbHelp.ReadOnly = true;
@@ -460,37 +384,26 @@
             // 
             // tabPage1
             // 
-            this.tabPage1.AccessibleDescription = null;
-            this.tabPage1.AccessibleName = null;
             resources.ApplyResources(this.tabPage1, "tabPage1");
-            this.tabPage1.BackgroundImage = null;
             this.tabPage1.Controls.Add(this.tableLayoutPanel2);
-            this.tabPage1.Font = null;
             this.tabPage1.Name = "tabPage1";
             this.toolTip1.SetToolTip(this.tabPage1, resources.GetString("tabPage1.ToolTip"));
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // tableLayoutPanel2
             // 
-            this.tableLayoutPanel2.AccessibleDescription = null;
-            this.tableLayoutPanel2.AccessibleName = null;
             resources.ApplyResources(this.tableLayoutPanel2, "tableLayoutPanel2");
-            this.tableLayoutPanel2.BackgroundImage = null;
             this.tableLayoutPanel2.Controls.Add(this.dgvParameters, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.panel4, 1, 0);
-            this.tableLayoutPanel2.Font = null;
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.toolTip1.SetToolTip(this.tableLayoutPanel2, resources.GetString("tableLayoutPanel2.ToolTip"));
             // 
             // dgvParameters
             // 
-            this.dgvParameters.AccessibleDescription = null;
-            this.dgvParameters.AccessibleName = null;
+            resources.ApplyResources(this.dgvParameters, "dgvParameters");
             this.dgvParameters.AllowUserToAddRows = false;
             this.dgvParameters.AllowUserToDeleteRows = false;
             this.dgvParameters.AllowUserToResizeRows = false;
-            resources.ApplyResources(this.dgvParameters, "dgvParameters");
-            this.dgvParameters.BackgroundImage = null;
             this.dgvParameters.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvParameters.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.parChecked,
@@ -498,7 +411,6 @@
             this.parValue,
             this.parUnit});
             this.dgvParameters.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
-            this.dgvParameters.Font = null;
             this.dgvParameters.MultiSelect = false;
             this.dgvParameters.Name = "dgvParameters";
             this.dgvParameters.ReadOnly = true;
@@ -537,24 +449,16 @@
             // 
             // panel4
             // 
-            this.panel4.AccessibleDescription = null;
-            this.panel4.AccessibleName = null;
             resources.ApplyResources(this.panel4, "panel4");
-            this.panel4.BackgroundImage = null;
             this.panel4.Controls.Add(this.cbQueryErrors);
             this.panel4.Controls.Add(this.btnUncheckAll);
             this.panel4.Controls.Add(this.btnCheckAll);
-            this.panel4.Font = null;
             this.panel4.Name = "panel4";
             this.toolTip1.SetToolTip(this.panel4, resources.GetString("panel4.ToolTip"));
             // 
             // cbQueryErrors
             // 
-            this.cbQueryErrors.AccessibleDescription = null;
-            this.cbQueryErrors.AccessibleName = null;
             resources.ApplyResources(this.cbQueryErrors, "cbQueryErrors");
-            this.cbQueryErrors.BackgroundImage = null;
-            this.cbQueryErrors.Font = null;
             this.cbQueryErrors.Name = "cbQueryErrors";
             this.toolTip1.SetToolTip(this.cbQueryErrors, resources.GetString("cbQueryErrors.ToolTip"));
             this.cbQueryErrors.UseVisualStyleBackColor = true;
@@ -562,11 +466,7 @@
             // 
             // btnUncheckAll
             // 
-            this.btnUncheckAll.AccessibleDescription = null;
-            this.btnUncheckAll.AccessibleName = null;
             resources.ApplyResources(this.btnUncheckAll, "btnUncheckAll");
-            this.btnUncheckAll.BackgroundImage = null;
-            this.btnUncheckAll.Font = null;
             this.btnUncheckAll.Name = "btnUncheckAll";
             this.toolTip1.SetToolTip(this.btnUncheckAll, resources.GetString("btnUncheckAll.ToolTip"));
             this.btnUncheckAll.UseVisualStyleBackColor = true;
@@ -574,11 +474,7 @@
             // 
             // btnCheckAll
             // 
-            this.btnCheckAll.AccessibleDescription = null;
-            this.btnCheckAll.AccessibleName = null;
             resources.ApplyResources(this.btnCheckAll, "btnCheckAll");
-            this.btnCheckAll.BackgroundImage = null;
-            this.btnCheckAll.Font = null;
             this.btnCheckAll.Name = "btnCheckAll";
             this.toolTip1.SetToolTip(this.btnCheckAll, resources.GetString("btnCheckAll.ToolTip"));
             this.btnCheckAll.UseVisualStyleBackColor = true;
@@ -586,37 +482,26 @@
             // 
             // tabPage2
             // 
-            this.tabPage2.AccessibleDescription = null;
-            this.tabPage2.AccessibleName = null;
             resources.ApplyResources(this.tabPage2, "tabPage2");
-            this.tabPage2.BackgroundImage = null;
             this.tabPage2.Controls.Add(this.tableLayoutPanel3);
-            this.tabPage2.Font = null;
             this.tabPage2.Name = "tabPage2";
             this.toolTip1.SetToolTip(this.tabPage2, resources.GetString("tabPage2.ToolTip"));
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // tableLayoutPanel3
             // 
-            this.tableLayoutPanel3.AccessibleDescription = null;
-            this.tableLayoutPanel3.AccessibleName = null;
             resources.ApplyResources(this.tableLayoutPanel3, "tableLayoutPanel3");
-            this.tableLayoutPanel3.BackgroundImage = null;
             this.tableLayoutPanel3.Controls.Add(this.dgvErrors, 0, 0);
             this.tableLayoutPanel3.Controls.Add(this.panel5, 1, 0);
-            this.tableLayoutPanel3.Font = null;
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.toolTip1.SetToolTip(this.tableLayoutPanel3, resources.GetString("tableLayoutPanel3.ToolTip"));
             // 
             // dgvErrors
             // 
-            this.dgvErrors.AccessibleDescription = null;
-            this.dgvErrors.AccessibleName = null;
+            resources.ApplyResources(this.dgvErrors, "dgvErrors");
             this.dgvErrors.AllowUserToAddRows = false;
             this.dgvErrors.AllowUserToDeleteRows = false;
             this.dgvErrors.AllowUserToResizeRows = false;
-            resources.ApplyResources(this.dgvErrors, "dgvErrors");
-            this.dgvErrors.BackgroundImage = null;
             this.dgvErrors.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvErrors.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.errDescr,
@@ -624,7 +509,6 @@
             this.errState,
             this.errMIL});
             this.dgvErrors.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
-            this.dgvErrors.Font = null;
             this.dgvErrors.MultiSelect = false;
             this.dgvErrors.Name = "dgvErrors";
             this.dgvErrors.ReadOnly = true;
@@ -666,31 +550,21 @@
             // 
             // panel5
             // 
-            this.panel5.AccessibleDescription = null;
-            this.panel5.AccessibleName = null;
             resources.ApplyResources(this.panel5, "panel5");
-            this.panel5.BackgroundImage = null;
             this.panel5.Controls.Add(this.label2);
             this.panel5.Controls.Add(this.btnClear);
-            this.panel5.Font = null;
             this.panel5.Name = "panel5";
             this.toolTip1.SetToolTip(this.panel5, resources.GetString("panel5.ToolTip"));
             // 
             // label2
             // 
-            this.label2.AccessibleDescription = null;
-            this.label2.AccessibleName = null;
             resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
             this.toolTip1.SetToolTip(this.label2, resources.GetString("label2.ToolTip"));
             // 
             // btnClear
             // 
-            this.btnClear.AccessibleDescription = null;
-            this.btnClear.AccessibleName = null;
             resources.ApplyResources(this.btnClear, "btnClear");
-            this.btnClear.BackgroundImage = null;
-            this.btnClear.Font = null;
             this.btnClear.Name = "btnClear";
             this.toolTip1.SetToolTip(this.btnClear, resources.GetString("btnClear.ToolTip"));
             this.btnClear.UseVisualStyleBackColor = true;
@@ -698,43 +572,31 @@
             // 
             // tabPage3
             // 
-            this.tabPage3.AccessibleDescription = null;
-            this.tabPage3.AccessibleName = null;
             resources.ApplyResources(this.tabPage3, "tabPage3");
-            this.tabPage3.BackgroundImage = null;
             this.tabPage3.Controls.Add(this.tableLayoutPanel5);
-            this.tabPage3.Font = null;
             this.tabPage3.Name = "tabPage3";
             this.toolTip1.SetToolTip(this.tabPage3, resources.GetString("tabPage3.ToolTip"));
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // tableLayoutPanel5
             // 
-            this.tableLayoutPanel5.AccessibleDescription = null;
-            this.tableLayoutPanel5.AccessibleName = null;
             resources.ApplyResources(this.tableLayoutPanel5, "tableLayoutPanel5");
-            this.tableLayoutPanel5.BackgroundImage = null;
             this.tableLayoutPanel5.Controls.Add(this.dgvTests, 0, 0);
             this.tableLayoutPanel5.Controls.Add(this.panel3, 1, 0);
-            this.tableLayoutPanel5.Font = null;
             this.tableLayoutPanel5.Name = "tableLayoutPanel5";
             this.toolTip1.SetToolTip(this.tableLayoutPanel5, resources.GetString("tableLayoutPanel5.ToolTip"));
             // 
             // dgvTests
             // 
-            this.dgvTests.AccessibleDescription = null;
-            this.dgvTests.AccessibleName = null;
+            resources.ApplyResources(this.dgvTests, "dgvTests");
             this.dgvTests.AllowUserToAddRows = false;
             this.dgvTests.AllowUserToDeleteRows = false;
             this.dgvTests.AllowUserToResizeRows = false;
-            resources.ApplyResources(this.dgvTests, "dgvTests");
-            this.dgvTests.BackgroundImage = null;
             this.dgvTests.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvTests.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn1,
             this.dataGridViewTextBoxColumn2});
             this.dgvTests.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
-            this.dgvTests.Font = null;
             this.dgvTests.MultiSelect = false;
             this.dgvTests.Name = "dgvTests";
             this.dgvTests.ReadOnly = true;
@@ -762,20 +624,14 @@
             // 
             // panel3
             // 
-            this.panel3.AccessibleDescription = null;
-            this.panel3.AccessibleName = null;
             resources.ApplyResources(this.panel3, "panel3");
-            this.panel3.BackgroundImage = null;
             this.panel3.Controls.Add(this.label1);
             this.panel3.Controls.Add(this.btnExecute);
-            this.panel3.Font = null;
             this.panel3.Name = "panel3";
             this.toolTip1.SetToolTip(this.panel3, resources.GetString("panel3.ToolTip"));
             // 
             // label1
             // 
-            this.label1.AccessibleDescription = null;
-            this.label1.AccessibleName = null;
             resources.ApplyResources(this.label1, "label1");
             this.label1.ForeColor = System.Drawing.Color.Red;
             this.label1.Name = "label1";
@@ -783,11 +639,7 @@
             // 
             // btnExecute
             // 
-            this.btnExecute.AccessibleDescription = null;
-            this.btnExecute.AccessibleName = null;
             resources.ApplyResources(this.btnExecute, "btnExecute");
-            this.btnExecute.BackgroundImage = null;
-            this.btnExecute.Font = null;
             this.btnExecute.Name = "btnExecute";
             this.toolTip1.SetToolTip(this.btnExecute, resources.GetString("btnExecute.ToolTip"));
             this.btnExecute.UseVisualStyleBackColor = true;
@@ -795,47 +647,32 @@
             // 
             // tabPage4
             // 
-            this.tabPage4.AccessibleDescription = null;
-            this.tabPage4.AccessibleName = null;
             resources.ApplyResources(this.tabPage4, "tabPage4");
-            this.tabPage4.BackgroundImage = null;
             this.tabPage4.Controls.Add(this.tableLayoutPanel6);
-            this.tabPage4.Font = null;
             this.tabPage4.Name = "tabPage4";
             this.toolTip1.SetToolTip(this.tabPage4, resources.GetString("tabPage4.ToolTip"));
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
             // tableLayoutPanel6
             // 
-            this.tableLayoutPanel6.AccessibleDescription = null;
-            this.tableLayoutPanel6.AccessibleName = null;
             resources.ApplyResources(this.tableLayoutPanel6, "tableLayoutPanel6");
-            this.tableLayoutPanel6.BackgroundImage = null;
             this.tableLayoutPanel6.Controls.Add(this.groupBox4, 0, 0);
             this.tableLayoutPanel6.Controls.Add(this.zedGraphControl1, 1, 0);
             this.tableLayoutPanel6.Controls.Add(this.panel6, 0, 1);
-            this.tableLayoutPanel6.Font = null;
             this.tableLayoutPanel6.Name = "tableLayoutPanel6";
             this.toolTip1.SetToolTip(this.tableLayoutPanel6, resources.GetString("tableLayoutPanel6.ToolTip"));
             // 
             // groupBox4
             // 
-            this.groupBox4.AccessibleDescription = null;
-            this.groupBox4.AccessibleName = null;
             resources.ApplyResources(this.groupBox4, "groupBox4");
-            this.groupBox4.BackgroundImage = null;
             this.groupBox4.Controls.Add(this.cblTraces);
-            this.groupBox4.Font = null;
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.TabStop = false;
             this.toolTip1.SetToolTip(this.groupBox4, resources.GetString("groupBox4.ToolTip"));
             // 
             // cblTraces
             // 
-            this.cblTraces.AccessibleDescription = null;
-            this.cblTraces.AccessibleName = null;
             resources.ApplyResources(this.cblTraces, "cblTraces");
-            this.cblTraces.BackgroundImage = null;
             this.cblTraces.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.cblTraces.CheckOnClick = true;
             this.cblTraces.FormattingEnabled = true;
@@ -844,43 +681,31 @@
             // 
             // zedGraphControl1
             // 
-            this.zedGraphControl1.AccessibleDescription = null;
-            this.zedGraphControl1.AccessibleName = null;
             resources.ApplyResources(this.zedGraphControl1, "zedGraphControl1");
-            this.zedGraphControl1.BackgroundImage = null;
-            this.zedGraphControl1.Font = null;
             this.zedGraphControl1.IsAntiAlias = true;
             this.zedGraphControl1.IsAutoScrollRange = true;
             this.zedGraphControl1.IsShowHScrollBar = true;
             this.zedGraphControl1.Name = "zedGraphControl1";
             this.tableLayoutPanel6.SetRowSpan(this.zedGraphControl1, 2);
-            this.zedGraphControl1.ScrollGrace = 0;
-            this.zedGraphControl1.ScrollMaxX = 0;
-            this.zedGraphControl1.ScrollMaxY = 0;
-            this.zedGraphControl1.ScrollMaxY2 = 0;
-            this.zedGraphControl1.ScrollMinX = 0;
-            this.zedGraphControl1.ScrollMinY = 0;
-            this.zedGraphControl1.ScrollMinY2 = 0;
+            this.zedGraphControl1.ScrollGrace = 0D;
+            this.zedGraphControl1.ScrollMaxX = 0D;
+            this.zedGraphControl1.ScrollMaxY = 0D;
+            this.zedGraphControl1.ScrollMaxY2 = 0D;
+            this.zedGraphControl1.ScrollMinX = 0D;
+            this.zedGraphControl1.ScrollMinY = 0D;
+            this.zedGraphControl1.ScrollMinY2 = 0D;
             this.toolTip1.SetToolTip(this.zedGraphControl1, resources.GetString("zedGraphControl1.ToolTip"));
             // 
             // panel6
             // 
-            this.panel6.AccessibleDescription = null;
-            this.panel6.AccessibleName = null;
             resources.ApplyResources(this.panel6, "panel6");
-            this.panel6.BackgroundImage = null;
             this.panel6.Controls.Add(this.btnGraph);
-            this.panel6.Font = null;
             this.panel6.Name = "panel6";
             this.toolTip1.SetToolTip(this.panel6, resources.GetString("panel6.ToolTip"));
             // 
             // btnGraph
             // 
-            this.btnGraph.AccessibleDescription = null;
-            this.btnGraph.AccessibleName = null;
             resources.ApplyResources(this.btnGraph, "btnGraph");
-            this.btnGraph.BackgroundImage = null;
-            this.btnGraph.Font = null;
             this.btnGraph.Name = "btnGraph";
             this.toolTip1.SetToolTip(this.btnGraph, resources.GetString("btnGraph.ToolTip"));
             this.btnGraph.UseVisualStyleBackColor = true;
@@ -888,43 +713,31 @@
             // 
             // tabPage5
             // 
-            this.tabPage5.AccessibleDescription = null;
-            this.tabPage5.AccessibleName = null;
             resources.ApplyResources(this.tabPage5, "tabPage5");
-            this.tabPage5.BackgroundImage = null;
             this.tabPage5.Controls.Add(this.tableLayoutPanel8);
-            this.tabPage5.Font = null;
             this.tabPage5.Name = "tabPage5";
             this.toolTip1.SetToolTip(this.tabPage5, resources.GetString("tabPage5.ToolTip"));
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
             // tableLayoutPanel8
             // 
-            this.tableLayoutPanel8.AccessibleDescription = null;
-            this.tableLayoutPanel8.AccessibleName = null;
             resources.ApplyResources(this.tableLayoutPanel8, "tableLayoutPanel8");
-            this.tableLayoutPanel8.BackgroundImage = null;
             this.tableLayoutPanel8.Controls.Add(this.dgvAdjusts, 0, 0);
             this.tableLayoutPanel8.Controls.Add(this.panel8, 1, 0);
-            this.tableLayoutPanel8.Font = null;
             this.tableLayoutPanel8.Name = "tableLayoutPanel8";
             this.toolTip1.SetToolTip(this.tableLayoutPanel8, resources.GetString("tableLayoutPanel8.ToolTip"));
             // 
             // dgvAdjusts
             // 
-            this.dgvAdjusts.AccessibleDescription = null;
-            this.dgvAdjusts.AccessibleName = null;
+            resources.ApplyResources(this.dgvAdjusts, "dgvAdjusts");
             this.dgvAdjusts.AllowUserToAddRows = false;
             this.dgvAdjusts.AllowUserToDeleteRows = false;
             this.dgvAdjusts.AllowUserToResizeRows = false;
-            resources.ApplyResources(this.dgvAdjusts, "dgvAdjusts");
-            this.dgvAdjusts.BackgroundImage = null;
             this.dgvAdjusts.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvAdjusts.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn3,
             this.dataGridViewTextBoxColumn4});
             this.dgvAdjusts.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
-            this.dgvAdjusts.Font = null;
             this.dgvAdjusts.MultiSelect = false;
             this.dgvAdjusts.Name = "dgvAdjusts";
             this.dgvAdjusts.ReadOnly = true;
@@ -952,22 +765,14 @@
             // 
             // panel8
             // 
-            this.panel8.AccessibleDescription = null;
-            this.panel8.AccessibleName = null;
             resources.ApplyResources(this.panel8, "panel8");
-            this.panel8.BackgroundImage = null;
             this.panel8.Controls.Add(this.btnAdj);
-            this.panel8.Font = null;
             this.panel8.Name = "panel8";
             this.toolTip1.SetToolTip(this.panel8, resources.GetString("panel8.ToolTip"));
             // 
             // btnAdj
             // 
-            this.btnAdj.AccessibleDescription = null;
-            this.btnAdj.AccessibleName = null;
             resources.ApplyResources(this.btnAdj, "btnAdj");
-            this.btnAdj.BackgroundImage = null;
-            this.btnAdj.Font = null;
             this.btnAdj.Name = "btnAdj";
             this.toolTip1.SetToolTip(this.btnAdj, resources.GetString("btnAdj.ToolTip"));
             this.btnAdj.UseVisualStyleBackColor = true;
@@ -975,23 +780,15 @@
             // 
             // tableLayoutPanel1
             // 
-            this.tableLayoutPanel1.AccessibleDescription = null;
-            this.tableLayoutPanel1.AccessibleName = null;
             resources.ApplyResources(this.tableLayoutPanel1, "tableLayoutPanel1");
-            this.tableLayoutPanel1.BackgroundImage = null;
             this.tableLayoutPanel1.Controls.Add(this.panel1, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.panel2, 0, 1);
-            this.tableLayoutPanel1.Font = null;
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.toolTip1.SetToolTip(this.tableLayoutPanel1, resources.GetString("tableLayoutPanel1.ToolTip"));
             // 
             // statusStrip1
             // 
-            this.statusStrip1.AccessibleDescription = null;
-            this.statusStrip1.AccessibleName = null;
             resources.ApplyResources(this.statusStrip1, "statusStrip1");
-            this.statusStrip1.BackgroundImage = null;
-            this.statusStrip1.Font = null;
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripButton1});
             this.statusStrip1.Name = "statusStrip1";
@@ -999,10 +796,7 @@
             // 
             // toolStripButton1
             // 
-            this.toolStripButton1.AccessibleDescription = null;
-            this.toolStripButton1.AccessibleName = null;
             resources.ApplyResources(this.toolStripButton1, "toolStripButton1");
-            this.toolStripButton1.BackgroundImage = null;
             this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.toolStripButton1.Name = "toolStripButton1";
             this.toolStripButton1.Click += new System.EventHandler(this.btnAbout_Click);
@@ -1018,8 +812,8 @@
             this.bgwParameters.WorkerReportsProgress = true;
             this.bgwParameters.WorkerSupportsCancellation = true;
             this.bgwParameters.DoWork += new System.ComponentModel.DoWorkEventHandler(this.bgwParameters_DoWork);
-            this.bgwParameters.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.bgwParameters_RunWorkerCompleted);
             this.bgwParameters.ProgressChanged += new System.ComponentModel.ProgressChangedEventHandler(this.bgwParameters_ProgressChanged);
+            this.bgwParameters.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.bgwParameters_RunWorkerCompleted);
             // 
             // bgwTest
             // 
@@ -1029,30 +823,21 @@
             // 
             // infoPanel
             // 
-            this.infoPanel.AccessibleDescription = null;
-            this.infoPanel.AccessibleName = null;
             resources.ApplyResources(this.infoPanel, "infoPanel");
-            this.infoPanel.BackgroundImage = null;
             this.infoPanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.infoPanel.Controls.Add(this.infoOptions);
             this.infoPanel.Controls.Add(this.infoMessage);
-            this.infoPanel.Font = null;
             this.infoPanel.Name = "infoPanel";
             this.toolTip1.SetToolTip(this.infoPanel, resources.GetString("infoPanel.ToolTip"));
             // 
             // infoOptions
             // 
-            this.infoOptions.AccessibleDescription = null;
-            this.infoOptions.AccessibleName = null;
             resources.ApplyResources(this.infoOptions, "infoOptions");
-            this.infoOptions.Font = null;
             this.infoOptions.Name = "infoOptions";
             this.toolTip1.SetToolTip(this.infoOptions, resources.GetString("infoOptions.ToolTip"));
             // 
             // infoMessage
             // 
-            this.infoMessage.AccessibleDescription = null;
-            this.infoMessage.AccessibleName = null;
             resources.ApplyResources(this.infoMessage, "infoMessage");
             this.infoMessage.Name = "infoMessage";
             this.toolTip1.SetToolTip(this.infoMessage, resources.GetString("infoMessage.ToolTip"));
@@ -1062,8 +847,8 @@
             this.bgwDemo.WorkerReportsProgress = true;
             this.bgwDemo.WorkerSupportsCancellation = true;
             this.bgwDemo.DoWork += new System.ComponentModel.DoWorkEventHandler(this.bgwDemo_DoWork);
-            this.bgwDemo.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.bgwDemo_RunWorkerCompleted);
             this.bgwDemo.ProgressChanged += new System.ComponentModel.ProgressChangedEventHandler(this.bgwDemo_ProgressChanged);
+            this.bgwDemo.RunWorkerCompleted += new System.ComponentModel.RunWorkerCompletedEventHandler(this.bgwDemo_RunWorkerCompleted);
             // 
             // toolTip1
             // 
@@ -1072,19 +857,15 @@
             // 
             // frmMain
             // 
-            this.AccessibleDescription = null;
-            this.AccessibleName = null;
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = null;
             this.Controls.Add(this.infoPanel);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.statusStrip1);
-            this.Font = null;
             this.Name = "frmMain";
             this.toolTip1.SetToolTip(this, resources.GetString("$this.ToolTip"));
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.Resize += new System.EventHandler(this.Form1_Resize);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
