@@ -300,8 +300,23 @@ namespace IES_2
             }
         }
 
+        private bool EnsureSelectedRow(DataGridView grid, string action)
+        {
+            if (grid.SelectedRows.Count > 0)
+                return true;
+            if (grid.CurrentRow != null)
+            {
+                grid.CurrentRow.Selected = true;
+                return grid.SelectedRows.Count > 0;
+            }
+            MessageBox.Show(string.Format("Please select a row before {0}.", action), this.Text, MessageBoxButtons.OK, MessageBoxIcon.Information);
+            return false;
+        }
+
         private void Connect()
         {
+            if (!EnsureSelectedRow(dgvECU, "connecting"))
+                return;
             showUserMessage(lang.Connecting, lang.EscCancel);
             ecu.Buffer.Initialize();
             ecu.Valid.Initialize();
@@ -1053,6 +1068,8 @@ namespace IES_2
 
         private void ExecTest()
         {
+            if (!EnsureSelectedRow(dgvTests, "executing a test"))
+                return;
             if (demo)
             {
                 testIndex = dgvTests.SelectedRows[0].Index;
@@ -1339,6 +1356,8 @@ namespace IES_2
 
         private void ExecAdjustment()
         {
+            if (!EnsureSelectedRow(dgvAdjusts, "adjusting"))
+                return;
             if (demo)
             {
                 adjIndex = dgvAdjusts.SelectedRows[0].Index;
