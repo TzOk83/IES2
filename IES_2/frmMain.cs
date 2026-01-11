@@ -464,6 +464,12 @@ namespace IES_2
                     log.WriteLine(label24.Text + " " + lblIsoCode.Text);
                     log.WriteLine(label17.Text + " " + lblRepCode.Text);
                 }
+                else
+                {
+                    tLog.Enabled = false;
+                    cbLOG.Checked = false;
+                    MessageBox.Show("Brak uprawnień do katalogu logów. Logowanie zostało wyłączone.", "Logowanie", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
             }
             hideUserMessage();
         }
@@ -1074,6 +1080,8 @@ namespace IES_2
 
         private void tLog_Tick(object sender, EventArgs e)
         {
+            if (log == null)
+                return;
             if ((queryFlag & 1) == 1)
             {
                 log.WriteLine();
