@@ -11,7 +11,6 @@ using System.Collections;
 using System.Text.RegularExpressions;
 using System.Runtime.InteropServices;
 using System.IO;
-using System.Timers;
 using ZedGraph;
 using IES_2.Properties;
 using IES_2.Res;
@@ -38,7 +37,7 @@ namespace IES_2
         private string logDir;
         private int pasvDelay;
         private volatile byte queryFlag;
-        private System.Timers.Timer tLog, tGraph;
+        private System.Windows.Forms.Timer tLog, tGraph;
         private RedrawGraphCallback RDC;
         private frmOneByte FrmOneByte;
 
@@ -64,14 +63,14 @@ namespace IES_2
             FrmOneByte = new frmOneByte();
             FrmOneByte.Owner = this;
 
-            tLog = new System.Timers.Timer();
-            tGraph = new System.Timers.Timer();
+            tLog = new System.Windows.Forms.Timer();
+            tGraph = new System.Windows.Forms.Timer();
 
             tLog.Interval = 2500;
-            tLog.Elapsed += new ElapsedEventHandler(tLog_Tick);
+            tLog.Tick += new EventHandler(tLog_Tick);
 
             tGraph.Interval = 100;
-            tGraph.Elapsed += new ElapsedEventHandler(tGraph_Tick);
+            tGraph.Tick += new EventHandler(tGraph_Tick);
 
             RDC = new RedrawGraphCallback(RedrawGraph);
 
